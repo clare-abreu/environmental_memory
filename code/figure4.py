@@ -256,7 +256,6 @@ ax.set_xticklabels(labels)
 #plt.legend(loc='upper left', bbox_to_anchor=(1, 1),title='Better predictor of fluctuating fitness')
 plt.ylim([0,1])
 fig.tight_layout()
-plt.savefig('Fig4B_nolegend_3cats.png',dpi=300)
 
 # Controls:
 labels = ['Within static\nreplicates','Within fluctuating\nreplicates']
@@ -286,6 +285,5 @@ ax.set_xticklabels(labels)
 plt.ylim([0,1])
 
 fig.tight_layout()
-plt.savefig('Fig4C_3cats.png',dpi=300)
 plt.show()
 
