@@ -46,10 +46,17 @@ plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 BClist = pd.read_csv('../data/BClist.csv',index_col=0)
 fitness_df = pd.read_csv('../data/fitness_df.csv',index_col=0)
 
+# High-variance mutants:
+df_high_rep_variation_mutants = pd.read_csv('../data/high_rep_variation_mutants.csv',index_col=0)
+high_rep_variation_mutants = df_high_rep_variation_mutants.index.tolist()
+fitness_df_dropped = fitness_df.drop(high_rep_variation_mutants)
+# COMMENT OUT IF NOT DROPPING HIGH VARIANCE MUTANTS:
+fitness_df = fitness_df_dropped
+
 #%% Figure 4A (data summary):
     
 plt.figure(figsize=(5.2, 5))
-# For Mean_Memory vs Mean_Diff_Static
+# For Mean_Nonadditivity vs Mean_Diff_Static
 x1 = fitness_df['Mean_Diff_Static'].values
 y1 = fitness_df['Mean_Nonadditivity'].values
 slope1 = np.linalg.lstsq(x1[:, np.newaxis], y1, rcond=None)[0][0]
@@ -58,7 +65,7 @@ line_y1 = slope1 * line_x1
 plt.scatter(x1, y1, alpha=0.2, c='salmon')
 plt.plot(line_x1, line_y1, 'salmon', label='Nonadditivity')
 
-# For Mean_Change vs Mean_Diff_Static
+# For Mean_Memory vs Mean_Diff_Static
 x2 = fitness_df['Mean_Diff_Static'].values
 y2 = fitness_df['Mean_Memory'].values
 slope2 = np.linalg.lstsq(x2[:, np.newaxis], y2, rcond=None)[0][0]

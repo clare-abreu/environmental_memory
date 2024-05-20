@@ -1,0 +1,33 @@
+---
+title: "GAM analysis angle and origin distance with MLE new fitness data"
+output: html_notebook
+---
+  
+  
+```{r}
+library(tidyverse)
+library(dplyr)
+library(tibble)
+library(tidyr)
+library(lubridate)
+library(nlme)
+library(performance)
+library(mgcv)
+library(naniar)
+
+set.seed(12345)
+```
+
+```{r}
+static_data <- read.csv("../data/fitness_df.csv", header=T)
+static_tb <- as_tibble(static_data)
+```
+
+
+```{r}
+change_gam_1 <- gam (Mean_Memory ~ Mean_Sine_Angle_Diff_Static+Mean_Origin_Distance_Static,  data=static_tb)
+change_gam_1$coefficients
+
+summary.gam(change_gam_1)
+check_collinearity(change_gam_1)
+```

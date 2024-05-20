@@ -71,6 +71,13 @@ freqs_df = pd.read_csv('../data/tidy_bc_fitness_counts_freqs.csv',index_col=0)
 # Separate the neutral barcodes into their own dataframe (for calculating mean fitness later)
 neutral_freqs_df = freqs_df[freqs_df['neutral']==True]
 
+# High-variance mutants:
+df_high_rep_variation_mutants = pd.read_csv('../data/high_rep_variation_mutants.csv',index_col=0)
+high_rep_variation_mutants = df_high_rep_variation_mutants.index.tolist()
+fitness_df_dropped = fitness_df.drop(high_rep_variation_mutants)
+# COMMENT OUT IF NOT DROPPING HIGH VARIANCE MUTANTS:
+#fitness_df = fitness_df_dropped
+
 #%% Fig. 2A:
 
 Gal_conds = ['Glu','Gal','Glu/Gal']
@@ -256,6 +263,9 @@ choose_colors = ['lime','magenta','blue']
 plot_three_conds_nine_BCs(freqs_df,neutral_freqs_df,fluct_conds,all_BCs,all_BC_seqs,choose_colors)
 
 #%% Fig. 2E-H:
+    
+# Drop high-variance mutants from overall analyses:
+fitness_df = fitness_df_dropped
     
 #%%
 # PLOT NONADDITIVITY histogram

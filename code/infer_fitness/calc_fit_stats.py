@@ -169,23 +169,15 @@ def calc_mean_angle_diff(fitness_df,conds):
                 if angle<135:
                     diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_diff'] = math.radians(np.abs(angle-45))
                     diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_sine_diff'] = np.sin(math.radians(np.abs(angle-45)))
-                    diff_df.loc[k,f'{combination[0]}/{combination[1]}_arc_diff'] = r*math.radians(np.abs(angle-45))
-                    diff_df.loc[k,f'{combination[0]}/{combination[1]}_lin_diff'] = r*np.sin(math.radians(np.abs(angle-45)))
                 else:
                     diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_diff'] = math.radians(45+180-angle)
                     diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_sine_diff'] = np.sin(math.radians(45+180-angle))
-                    diff_df.loc[k,f'{combination[0]}/{combination[1]}_arc_diff'] = r*math.radians(45+180-angle)
-                    diff_df.loc[k,f'{combination[0]}/{combination[1]}_lin_diff'] = r*np.sin(math.radians(45+180-angle))
             elif angle>-45:
                 diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_diff'] = math.radians(45-angle)
                 diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_sine_diff'] = np.sin(math.radians(45-angle))
-                diff_df.loc[k,f'{combination[0]}/{combination[1]}_arc_diff'] = r*math.radians(45-angle)
-                diff_df.loc[k,f'{combination[0]}/{combination[1]}_lin_diff'] = r*np.sin(math.radians(45-angle))
             else:
                 diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_diff'] = math.radians(np.abs(angle+135))
                 diff_df.loc[k,f'{combination[0]}/{combination[1]}_angle_sine_diff'] = np.sin(math.radians(np.abs(angle+135)))
-                diff_df.loc[k,f'{combination[0]}/{combination[1]}_arc_diff'] = r*math.radians(np.abs(angle+135))
-                diff_df.loc[k,f'{combination[0]}/{combination[1]}_lin_diff'] = r*np.sin(math.radians(np.abs(angle+135)))
             
     diff_df['Mean_Angle_Diff'] = np.nan
     diff_df['Mean_Angle_Diff'] = diff_df[diff_cols].mean(axis=1)
@@ -193,78 +185,11 @@ def calc_mean_angle_diff(fitness_df,conds):
     diff_df['Mean_Sine_Angle_Diff'] = np.nan
     diff_df['Mean_Sine_Angle_Diff'] = diff_df[diff_sine_cols].mean(axis=1)
     
-    diff_df['Mean_Arc_Diff'] = np.nan
-    diff_df['Mean_Arc_Diff'] = diff_df[arc_cols].mean(axis=1)
-    
-    diff_df['Mean_Linear_Diff'] = np.nan
-    diff_df['Mean_Linear_Diff'] = diff_df[lin_cols].mean(axis=1)
-    
-    for combination in itertools.combinations(conds, 2):
-        this_comb = f'{combination[0]}/{combination[1]}'
-        diff_df[f'Mean_Arc_Diff_Excl_{this_comb}'] = np.nan
-        diff_df[f'Mean_Lin_Diff_Excl_{this_comb}'] = np.nan
-        arc_cols_excl = [x for x in arc_cols if x != f'{this_comb}_arc_diff']
-        lin_cols_excl = [x for x in lin_cols if x != f'{this_comb}_lin_diff']
-        diff_df[f'Mean_Arc_Diff_Excl_{this_comb}'] = diff_df[arc_cols_excl].mean(axis=1)
-        diff_df[f'Mean_Lin_Diff_Excl_{this_comb}'] = diff_df[lin_cols_excl].mean(axis=1)
-        
-    for combination in itertools.combinations(conds, 2):
-        this_comb = f'{combination[0]}/{combination[1]}'
-        first_env = combination[0]
-        sec_env = combination[1]
-        diff_df[f'Mean_Arc_Diff_Excl_All_{this_comb}'] = np.nan
-        diff_df[f'Mean_Lin_Diff_Excl_All_{this_comb}'] = np.nan
-        arc_cols_excl_all = [x for x in arc_cols if first_env not in x and sec_env not in x]
-        lin_cols_excl_all = [x for x in lin_cols if first_env not in x and sec_env not in x]
-        diff_df[f'Mean_Arc_Diff_Excl_All_{this_comb}'] = diff_df[arc_cols_excl_all].mean(axis=1)
-        diff_df[f'Mean_Lin_Diff_Excl_All_{this_comb}'] = diff_df[lin_cols_excl_all].mean(axis=1)
-    
     diff_df['Mean_Origin_Distance'] = np.nan
     diff_df['Mean_Origin_Distance'] = diff_df[r_cols].mean(axis=1)
     
     return(diff_df)
 
-
-def calc_norm_r_diff_static(static_df,conds):
-# Add r and arc normalizations to the all_static_df
-    all_static_combs = []
-    static_df_copy = static_df.copy()
-    for combination in itertools.combinations(conds, 2):
-        this_comb = f'{combination[0]}/{combination[1]}'
-        all_static_combs.append(this_comb)
-        static_df_copy[f'{this_comb}_r_norm_mean'] = static_df_copy[f'{this_comb}_r']/np.mean(static_df_copy[f'{this_comb}_r'])
-        static_df_copy[f'{this_comb}_r_norm_max'] = static_df_copy[f'{this_comb}_r']/np.max(static_df_copy[f'{this_comb}_r'])
-        static_df_copy[f'{this_comb}_arc_diff_norm_mean'] = static_df_copy[f'{this_comb}_r_norm_mean'] * static_df_copy[f'{this_comb}_angle_diff']
-        static_df_copy[f'{this_comb}_arc_diff_norm_max'] = static_df_copy[f'{this_comb}_r_norm_max'] * static_df_copy[f'{this_comb}_angle_diff']
-
-    
-    static_df_copy['Mean_Origin_Distance_norm_mean'] = static_df_copy[[s + '_r_norm_mean' for s in all_static_combs]].mean(1)
-    static_df_copy['Mean_Origin_Distance_norm_max'] = static_df_copy[[s + '_r_norm_max' for s in all_static_combs]].mean(1)
-    static_df_copy['Mean_Arc_Diff_norm_max'] = static_df_copy[[s + '_arc_diff_norm_max' for s in all_static_combs]].mean(1)
-    static_df_copy['Mean_Arc_Diff_norm_mean'] = static_df_copy[[s + '_arc_diff_norm_mean' for s in all_static_combs]].mean(1)
-    
-    
-    for cond in conds:
-        these_combs=[]
-        conds_copy = conds.copy()
-        conds_copy.remove(cond)
-        for other_cond in conds_copy:
-            if conds.index(cond) < conds.index(other_cond):
-                these_combs.append(f'{cond}/{other_cond}')
-            else:
-                these_combs.append(f'{other_cond}/{cond}')
-            
-        static_df_copy[f'Mean_Angle_Diff_{cond}_combs'] = static_df_copy[[s + '_angle_diff' for s in these_combs]].mean(1)
-        
-        static_df_copy[f'Mean_Origin_Distance_{cond}_combs'] = static_df_copy[[s + '_r' for s in these_combs]].mean(1)
-        static_df_copy[f'Mean_Origin_Distance_norm_mean_{cond}_combs'] = static_df_copy[[s + '_r_norm_mean' for s in these_combs]].mean(1)
-        static_df_copy[f'Mean_Origin_Distance_norm_max_{cond}_combs'] = static_df_copy[[s + '_r_norm_max' for s in these_combs]].mean(1)
-        static_df_copy[f'Mean_Arc_Diff_{cond}_combs'] = static_df_copy[[s + '_arc_diff' for s in these_combs]].mean(1)
-        static_df_copy[f'Mean_Arc_Diff_norm_mean_{cond}_combs'] = static_df_copy[[s + '_arc_diff_norm_mean' for s in these_combs]].mean(1)
-        static_df_copy[f'Mean_Arc_Diff_norm_max_{cond}_combs'] = static_df_copy[[s + '_arc_diff_norm_max' for s in these_combs]].mean(1)
-        
-    
-    return(static_df_copy)
 
 
 def calc_nonadd(fitness_df,pair_conds,pair_conds_mean):
@@ -395,7 +320,7 @@ adaptive_withoutT0_rm_high_pool_frac = pd.read_csv(f'{formatted_data_path}adapti
 adaptive_withT0_rm_high_pool_frac_high_thr = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_fitness_withT0_0.1_threshold_exceptions.csv',index_col=0)
 adaptive_withoutT0_rm_high_pool_frac_high_thr = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_fitness_withoutT0_0.1_threshold_exceptions.csv',index_col=0)
 
-# Choose T0 or not:
+# Choose adaptive threshold, whether to include timepoint T0 in fitness inferences, whether to drop Lac-H2O2 and high-batch effect conds from averages:
 thr = 'normal'
 choose = 'not_rm_high_pool_frac'
 drop_LacH = True
@@ -477,8 +402,6 @@ fitness_df = fitness_df.join(static_diff_df['Mean_Diff'].rename('Mean_Diff_Stati
 fitness_df = fitness_df.join(static_diff_df['SEM_Diff'].rename('SEM_Diff_Static'))
 fitness_df = fitness_df.join(static_angle_diff_df['Mean_Angle_Diff'].rename('Mean_Angle_Diff_Static'))
 fitness_df = fitness_df.join(static_angle_diff_df['Mean_Sine_Angle_Diff'].rename('Mean_Sine_Angle_Diff_Static'))
-fitness_df = fitness_df.join(static_angle_diff_df['Mean_Arc_Diff'].rename('Mean_Arc_Diff_Static'))
-fitness_df = fitness_df.join(static_angle_diff_df['Mean_Linear_Diff'].rename('Mean_Linear_Diff_Static'))
 fitness_df = fitness_df.join(static_angle_diff_df['Mean_Origin_Distance'].rename('Mean_Origin_Distance_Static'))
 fitness_df = fitness_df.join(static_diff_df['Overall_Fit'].rename('Overall_Fit_Static'))
 fitness_df = fitness_df.join(static_diff_df['Overall_Tradeoff'].rename('Overall_Tradeoff_Static'))
@@ -490,7 +413,6 @@ all_angle_diff_df = calc_mean_angle_diff(fitness_df,all_conds)
 # Merge all fit diff columns into ftiness_df:
 fitness_df = fitness_df.join(all_diff_df['Mean_Diff'].rename('Mean_Diff_All'))
 fitness_df = fitness_df.join(all_angle_diff_df['Mean_Angle_Diff'].rename('Mean_Angle_Diff_All'))
-fitness_df = fitness_df.join(all_angle_diff_df['Mean_Arc_Diff'].rename('Mean_Arc_Diff_All'))
 fitness_df = fitness_df.join(all_angle_diff_df['Mean_Origin_Distance'].rename('Mean_Origin_Distance_All'))
 fitness_df = fitness_df.join(all_diff_df['Overall_Fit'].rename('Overall_Fit_All'))
 fitness_df = fitness_df.join(all_diff_df['Overall_Tradeoff'].rename('Overall_Tradeoff_All'))
@@ -610,57 +532,6 @@ elif thr == 'high':
         elif choose == 'not_rm_high_pool_frac':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withoutT0_overall_stats_rm_high_pool_frac_0.1_threshold.csv')
 
-            
-            
-#%% Plot summary with static abs fitness differences:
-plt.figure(figsize=(15.6,5))
-
-plt.subplot(1,3,1)
-plt.scatter(fitness_df['Mean_Diff_Static'],fitness_df['Mean_Nonadditivity'],alpha=0.1)
-x = fitness_df['Mean_Diff_Static']
-y = fitness_df['Mean_Nonadditivity']
-overall_slope, intercept, r_value, overall_p_value, std_err = stats.linregress(x,y)
-line_x = np.linspace(np.min(x), np.max(x),100)#np.arange(np.min(x), np.max(x))
-line_y = overall_slope*line_x + intercept
-plt.plot(line_x, line_y)
-#plt.yscale('log')
-plt.ylim([0,1.5])
-plt.xlabel('Mean fitness difference (static)')
-plt.ylabel('Mean nonadditivity (fluct)')
-plt.title(f'slope={overall_slope}')
-
-plt.subplot(1,3,2)
-plt.scatter(fitness_df['Mean_Diff_Static'],fitness_df['Mean_Memory'],alpha=0.1)
-x = fitness_df['Mean_Diff_Static']
-y = fitness_df['Mean_Memory']
-overall_slope, intercept, r_value, overall_p_value, std_err = stats.linregress(x,y)
-line_x = np.linspace(np.min(x), np.max(x),100)#np.arange(np.min(x), np.max(x))
-line_y = overall_slope*line_x + intercept
-plt.plot(line_y, line_y,'k',alpha=0.3)
-plt.plot(line_x, line_y)
-#plt.yscale('log')
-plt.ylim([0,1.5])
-plt.xlabel('Mean fitness difference (static)')
-plt.ylabel('Mean memory (fluct)')
-plt.title(f'slope={overall_slope}')
-
-plt.subplot(1,3,3)
-plt.scatter(fitness_df['Mean_Nonadditivity'],fitness_df['Mean_Memory'],alpha=0.1)
-x = fitness_df['Mean_Nonadditivity']
-y = fitness_df['Mean_Memory']
-overall_slope, intercept, r_value, overall_p_value, std_err = stats.linregress(x,y)
-line_x = np.linspace(np.min(x), np.max(x),100)#np.arange(np.min(x), np.max(x))
-line_y = overall_slope*line_x + intercept
-plt.plot(line_x, line_x,'k',alpha=0.3)
-#plt.yscale('log')
-#plt.ylim([0,1])
-plt.xlabel('Mean nonadditivity (fluct)')
-plt.ylabel('Mean memory (fluct)')
-plt.title(f'p={overall_p_value}')
-
-plt.tight_layout()
-
-plt.show()
 
 #%% Include all static fitness stats:
 
