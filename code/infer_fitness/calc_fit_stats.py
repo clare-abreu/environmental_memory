@@ -413,6 +413,7 @@ all_angle_diff_df = calc_mean_angle_diff(fitness_df,all_conds)
 # Merge all fit diff columns into ftiness_df:
 fitness_df = fitness_df.join(all_diff_df['Mean_Diff'].rename('Mean_Diff_All'))
 fitness_df = fitness_df.join(all_angle_diff_df['Mean_Angle_Diff'].rename('Mean_Angle_Diff_All'))
+fitness_df = fitness_df.join(all_angle_diff_df['Mean_Sine_Angle_Diff'].rename('Mean_Sine_Angle_Diff_All'))
 fitness_df = fitness_df.join(all_angle_diff_df['Mean_Origin_Distance'].rename('Mean_Origin_Distance_All'))
 fitness_df = fitness_df.join(all_diff_df['Overall_Fit'].rename('Overall_Fit_All'))
 fitness_df = fitness_df.join(all_diff_df['Overall_Tradeoff'].rename('Overall_Tradeoff_All'))

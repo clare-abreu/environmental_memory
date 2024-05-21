@@ -25,10 +25,6 @@ from ast import literal_eval
 from Bio import SeqIO
 from itertools import combinations
 
-get_fitness_path = '../../../software_module/callAtishFitness.py'
-sys.path.append(os.path.dirname(os.path.expanduser(get_fitness_path)))
-import callAtishFitness as inferFitness
-
 sns.set_color_codes()
 sns.set_style('white')
 sns.set_style('ticks')
