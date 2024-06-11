@@ -16,7 +16,6 @@ from scipy import stats
 from scipy.stats import linregress
 from scipy.stats import pearsonr
 from scipy.spatial import distance
-from matplotlib import colors
 import scipy
 import sys
 import os
@@ -54,10 +53,12 @@ fitness_df_dropped = fitness_df.drop(high_rep_variation_mutants)
 # COMMENT OUT IF NOT DROPPING HIGH VARIANCE MUTANTS:
 fitness_df = fitness_df_dropped
 
+# Identify barcodes to be thrown out due to multiple BC reads
 BC_throw_out = pd.read_csv('../data/WGS/BCs_to_throw_out.csv',index_col=0)
 reseq_samples_throw_out = BC_throw_out.index.tolist()
 reseq_BCs = pd.read_csv('../data/WGS/WGS_ReSeq_indices_BC_map_Source.csv',index_col=0)
 samples_throw_out = reseq_BCs.loc[reseq_samples_throw_out,'oldIndex'].tolist()
+
 admeraIndices = pd.read_csv('../data/WGS/admeraIndices.csv',index_col=0)
 BC_map = pd.read_csv('../data/WGS/WGS_indices_BC_map.csv',index_col=0)
 shaili_ploidy_assay = pd.read_csv('../data/WGS/SM_benomyl_assay_df.csv')
@@ -65,7 +66,6 @@ shaili_ploidy_assay = pd.read_csv('../data/WGS/SM_benomyl_assay_df.csv')
 WGS_homo_snps = pd.read_csv('../data/WGS/WGS_consolidated_homo_SNPs_by_sample.csv',index_col=0)
 WGS_hetero_snps = pd.read_csv('../data/WGS/WGS_consolidated_hetero_SNPs_by_sample.csv',index_col=0)
 
-Reseq_map = pd.read_csv('../data/WGS/WGS_ReSeq_indices_BC_map.csv',index_col=0)
 CNV_notes = pd.read_csv('../data/WGS/CNV_notes.csv',index_col=0)
 
 
@@ -132,13 +132,6 @@ haploids = shaili_ploidy_filtered[shaili_ploidy_filtered['growth inhibited (dipl
 
 # %% Pure diploid search
 
-Reseq_map['Source_Env'] = ""
-for k in Reseq_map.index:
-    this_BC = Reseq_map.loc[k,'BC']
-    if this_BC in BClist.index:
-        Reseq_map.loc[k,'Source_Env'] = BClist.loc[this_BC,'Source']
-
-
 def parse_list(lst_str):
     try:
         return ast.literal_eval(lst_str)
@@ -170,11 +163,6 @@ for s in shaili_ploidy_assay['sample'].tolist():
     if s in WGS_hetero_snps.index:
         if WGS_hetero_snps.loc[s,'mutations'] != []:
             WGS_hetero_muts.append(s)
-
-
-all_muts = np.unique(WGS_homo_muts.extend(WGS_hetero_muts))
-
-pure_diploids = diploids[~diploids['sample'].isin(all_muts)]
 
 #%% Iron pathway SNP mutations
 
