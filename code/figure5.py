@@ -315,9 +315,6 @@ dip_SEM_diff = np.std(diploids_minus_borderline_minus_muts['Mean_Diff_Static'])/
 dip_mean_change = np.mean(diploids_minus_borderline_minus_muts['Mean_Memory'])
 dip_SEM_change = np.std(diploids_minus_borderline_minus_muts['Mean_Memory'])/np.sqrt(len(diploids_minus_borderline_minus_muts['Mean_Memory']))
 
-#plt.errorbar([dip_mean_diff,AFT_BOL_mean_diff,ENA_amp_mean_diff],[dip_mean_change,AFT_BOL_mean_change,ENA_amp_mean_change],
-#             xerr=[dip_SEM_diff,AFT_BOL_SEM_diff,ENA_amp_SEM_diff],yerr=[dip_SEM_change,AFT_BOL_SEM_change,ENA_amp_SEM_change])
-
 colors = ['peru', 'magenta', 'blue']  # define the colors for the points
 labels = ['Diploids', 'Iron pathway (AFT/BOL)', 'Sodium pump (ENA)']  # define the labels for the points
 
@@ -355,8 +352,6 @@ plt.tight_layout()
 plt.show()
 
 plt.figure(figsize=(5.2,5))
-#plt.errorbar([ENA_not_amp_mean_diff, ENA_SNP_mean_diff, ENA_amp_mean_diff], [ENA_not_amp_mean_change, ENA_SNP_mean_change, ENA_amp_mean_change], 
-#             xerr=[ENA_not_amp_SEM_diff, ENA_SNP_SEM_diff, ENA_amp_SEM_diff], yerr=[ENA_not_amp_SEM_change, ENA_SNP_SEM_change, ENA_amp_SEM_change], fmt='o', color='blue')
 plt.errorbar(ENA_not_amp_mean_diff, ENA_not_amp_mean_change, 
              xerr=ENA_not_amp_SEM_diff, yerr=ENA_not_amp_SEM_change, 
              fmt='o', color='cornflowerblue')
