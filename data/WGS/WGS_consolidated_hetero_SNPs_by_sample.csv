@@ -1,0 +1,481 @@
+Index,BC,source,sourceEnv,mutations
+WGS-March23-143-01-01,GCCTCAATGCGTAATTCAATTCATCT,Circ_L,Lac,[]
+WGS-March23-143-01-02,GAAGTAACATAAAATGCTCTTGTGCA,Circ_L,Lac,"['BOI2:upstream_gene_variant:HET', 'CLD1:upstream_gene_variant:HET', 'BBC1:missense_variant:HET', 'YJR154W:upstream_gene_variant:HET', 'TCB3:upstream_gene_variant:HET', 'HRD1:missense_variant:HET']"
+WGS-March23-143-01-03,ACGGGAAGTACGAAGGTGTTTTGGGC,Circ_LF2,Glu/Lac,"['RIM101:missense_variant:HET', 'DJP1:synonymous_variant:HET']"
+WGS-March23-143-01-04,CCCAAAAATCCTAATATAGTTCAAAC,Circ_LF1,Glu/Lac,['PEX18:missense_variant:HET']
+WGS-March23-143-01-05,TGACGAATGTTCAAGCATATTCTTTT,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-06,CTCCCAACATTGAATTCCATTGCAAA,Circ_N,NaCl,[]
+WGS-March23-143-01-07,AACAGAACCAAAAAACTTATTCTTTC,Circ_N,NaCl,[]
+WGS-March23-143-01-08,AGCAAAAGGTGGAATGTAGTTACGGT,Circ_A1,Alice,"['RFC5:missense_variant:HET', 'YCL076W:missense_variant:HET', 'MSH3:upstream_gene_variant:HET', 'TUB2:missense_variant:HET']"
+WGS-March23-143-01-09,TCTGGAAGGATAAACCAGGTTGTTGG,Circ_L,Lac,[]
+WGS-March23-143-01-10,GACAGAAAGAATAAGCATGTTTGCAA,Circ_L,Lac,[]
+WGS-March23-143-01-11,CAGATAAGTATGAATATCTTTTTGTT,Circ_LF2,Glu/Lac,[]
+WGS-March23-143-01-12,TTTAAAACCTATAAACTCTTTTTACA,Circ_LF1,Glu/Lac,"['RKM2:stop_gained:HET', 'SSL2:synonymous_variant:HET', 'AAT2:missense_variant:HET', 'PDR16:upstream_gene_variant:HET']"
+WGS-March23-143-01-13,CCAACAATTCGAAACATGTTTAATAT,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-14,CCCGAAACAGACAATTCTTTTGTGTT,Circ_N,NaCl,[]
+WGS-March23-143-01-15,TAGCAAATATGAAAGAACTTTGTCTT,Circ_N,NaCl,"['YFL063W:missense_variant:HET', 'SUC2:missense_variant:HET', 'ICL2:upstream_gene_variant:HET']"
+WGS-March23-143-01-16,TTTTGAAATGGAAAATACTTTTGAGC,Circ_A1,Alice,"['TOD6:missense_variant:HET', 'YDR271C:upstream_gene_variant:HET', 'YLL058W:missense_variant:HET', 'HRD3:stop_gained:HET', 'ATM1:missense_variant:HET', 'TRE1:missense_variant:HET']"
+WGS-March23-143-01-17,TCATAAACCTATAATCGTTTTGTCGA,Circ_L,Lac,[]
+WGS-March23-143-01-18,AAGATAAGACGTAATAGGGTTACGGA,Circ_L,Lac,[]
+WGS-March23-143-01-19,TCTCGAACGCTCAAGTAGTTTCGGAG,Circ_LF2,Glu/Lac,['CSM4:missense_variant:HET']
+WGS-March23-143-01-20,TTCTGAAAATGTAAGTTGTTTTCAAT,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-21,TTGAGAATCTTTAATAAACTTTCAGG,Circ_LF1,Glu/Lac,"['ADE6:upstream_gene_variant:HET', 'SSK1:missense_variant:HET', 'HXT2:synonymous_variant:HET', 'POP1:missense_variant:HET']"
+WGS-March23-143-01-22,AATTAAACTAAGAACAGGTTTGATCT,Circ_N,NaCl,"['ACS1:synonymous_variant:HET', 'MCM7:missense_variant:HET', 'YBR241C:upstream_gene_variant:HET', 'PIB1:missense_variant:HET', 'RAD23:missense_variant:HET', 'AFT1:missense_variant:HET', 'GET1:upstream_gene_variant:HET', 'IML1:missense_variant:HET', 'FEX2:upstream_gene_variant:HET', 'SEC16:downstream_gene_variant:HET']"
+WGS-March23-143-01-23,CCGATAATTGTTAACGCACTTTTTT,Circ_N,NaCl,['NOC4:missense_variant:HET']
+WGS-March23-143-01-24,ATACCAATTCGCAACGCCTTTGTCGG,Circ_A1,Alice,"['COR1:upstream_gene_variant:HET', 'tG(GCC)B:upstream_gene_variant:HET', 'DAK2:missense_variant:HET', 'YFL042C:missense_variant:HET', 'CPA2:upstream_gene_variant:None', 'FRE2:upstream_gene_variant:HET', 'MRN1:missense_variant:HET']"
+WGS-March23-143-01-25,AGGGAAACTGGAAATCGACTTAAGCA,Circ_L,Lac,"['YDR401W:synonymous_variant:HET', 'FAS1:missense_variant:HET']"
+WGS-March23-143-01-26,AGTGGAATGTGAAATTGCCTTGTCTG,Circ_L,Lac,[]
+WGS-March23-143-01-27,GGTAGAACGCGAAACTGAGTTGGCGG,Circ_LF2,Glu/Lac,[]
+WGS-March23-143-01-28,GTCCAAACTTGTAAAGGTCTTGCATA,Circ_LF1,Glu/Lac,"['OST5:upstream_gene_variant:HET', 'HSP82:missense_variant:HET', 'YPR117W:missense_variant:HET']"
+WGS-March23-143-01-29,TAGTAAAACCATAATGGAATTCGATA,Circ_LF1,Glu/Lac,"['FET5:missense_variant:HET', 'AFT1:missense_variant:HET', 'TCB2:synonymous_variant:HET']"
+WGS-March23-143-01-30,ACGAAAACTCAGAAGTTCATTTCGGG,Circ_N,NaCl,[]
+WGS-March23-143-01-31,CGTTAAACGCGAAATGGATTTTGATA,Circ_N,NaCl,[]
+WGS-March23-143-01-32,ACACAAAGCTCTAAGTCACTTACGAC,Circ_A1,Alice,"['DUS1:missense_variant:HET', 'WAR1:frameshift_variant:HET', 'PFK2:missense_variant:HET', 'SSE1:upstream_gene_variant:HET']"
+WGS-March23-143-01-33,ACGAAAATATGAAATGTTGTTTTGTT,Circ_L,Lac,[]
+WGS-March23-143-01-34,GCATCAATTGTTAAAATACTTGCGTT,Circ_L,Lac,[]
+WGS-March23-143-01-35,ACGAAAACATTGAAGATTATTGTTTT,Circ_LF2,Glu/Lac,"['SPP2:upstream_gene_variant:HET', 'MGM1:synonymous_variant:HET']"
+WGS-March23-143-01-36,ATAAAAAATTTAAATTGAATTACTGT,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-37,GGAATAATAACGAAGTACGTTTTTCC,Circ_LF1,Glu/Lac,"['IST2:missense_variant:HET', 'CIN10:missense_variant:HET', 'LDB19:upstream_gene_variant:HET']"
+WGS-March23-143-01-38,ATTTCAATAGTAAATTGATTTTTTAT,Circ_N,NaCl,[]
+WGS-March23-143-01-39,CACTGAAATTGGAAGATCGTTTATAA,Circ_N,NaCl,[]
+WGS-March23-143-01-40,ACACAAATAACGAAAAATGTTTTCTA,Circ_A1,Alice,"['THI3:missense_variant:HET', 'NPC2:missense_variant:HET', 'SCM4:synonymous_variant:HET', 'NMA1:missense_variant:HET', 'NDE1:upstream_gene_variant:HET', 'YNL276C:upstream_gene_variant:HET', 'GPM3:missense_variant:HET', 'NUP1:upstream_gene_variant:HET', 'YPL150W:missense_variant:HET']"
+WGS-March23-143-01-41,TAGATAACATAAAAGCGTCTTCAAAT,Circ_L,Lac,[]
+WGS-March23-143-01-42,TCACTAAGAGATAAAAGGTTTTTGTG,Circ_L,Lac,[]
+WGS-March23-143-01-43,TCCGCAACTTAAAAGTGGATTGATGG,Circ_LF2,Glu/Lac,['ARE2:synonymous_variant:HET']
+WGS-March23-143-01-44,TAAGCAACCGGTAACCCTTTTGGTCC,Circ_LF1,Glu/Lac,['UBP5:synonymous_variant:HET']
+WGS-March23-143-01-45,ACTCAAAAAGTTAAAATTCTTCTTTA,Circ_N,NaCl,[]
+WGS-March23-143-01-46,ATGTCAAATGTTAACATAGTTGAGAA,Circ_N,NaCl,[]
+WGS-March23-143-01-47,ATGTAAAATAAAAATCCGTTTGAATA,Circ_A1,Alice,"['SWA2:missense_variant:HET', 'MDS3:synonymous_variant:HET', 'YMR196W:missense_variant:HET', 'MON2:missense_variant:HET', 'VID27:missense_variant:HET', 'MRPL40:missense_variant:HET', 'NOP53:upstream_gene_variant:HET', 'CAR1:missense_variant:HET']"
+WGS-March23-143-01-48,GATAAAACAAACAAATTATTTGTTTG,Circ_A1,Alice,"['RAD16:synonymous_variant:HET', 'GPR1:missense_variant:HET', 'PRE4:frameshift_variant:HET', 'LEU5:upstream_gene_variant:HET', 'SET3:stop_gained:HET', 'ERO1:upstream_gene_variant:HET', 'SCS7:upstream_gene_variant:HET', 'PHO80:missense_variant:HET']"
+WGS-March23-143-01-49,ATTACAACAGGTAAGCAATTTTTATA,Circ_L,Lac,"['GPX1:upstream_gene_variant:HET', 'GPX1:upstream_gene_variant:HET']"
+WGS-March23-143-01-50,CTAGGAATAGGAAACGGAGTTTGTGA,Circ_LF2,Glu/Lac,"['RAD3:synonymous_variant:HET', 'PIR1:upstream_gene_variant:HET', 'TOS6:missense_variant:HET', 'tT(AGU)O2:upstream_gene_variant:HET']"
+WGS-March23-143-01-51,CCTCTAAACTGGAACTAACTTCGATA,Circ_LF2,Glu/Lac,['DPS1:stop_gained:HET']
+WGS-March23-143-01-52,CTGGAAATCGTGAATGAGGTTGGTGC,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-53,TTAATAATCGCGAATGCCGTTTTGCT,Circ_N,NaCl,[]
+WGS-March23-143-01-54,GTCCGAAACCTTAAGGTGTTTTTGTA,Circ_N,NaCl,[]
+WGS-March23-143-01-55,TAGAGAATCAGAAAATCTATTGAATT,Circ_A1,Alice,"['DSF2:upstream_gene_variant:HET', 'CLN1:synonymous_variant:HET', 'YPR150W:synonymous_variant:HET']"
+WGS-March23-143-01-56,TGCTGAACATGGAAACCAATTGTTTG,Circ_A1,Alice,[]
+WGS-March23-143-01-57,CATATAATGGATAATATGTTTACTTG,Circ_L,Lac,['CCH1:missense_variant:HET']
+WGS-March23-143-01-58,AACCCAAAAAATAACAAGTTTTGGTA,Circ_LF2,Glu/Lac,[]
+WGS-March23-143-01-59,AATCTAAATATTAACGGGTTTGGTCA,Circ_LF2,Glu/Lac,[]
+WGS-March23-143-01-60,AGCGTAATAGCAAATAGACTTCAAT,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-61,ACTCCAACTACTAACGCGTTTGCGGC,Circ_N,NaCl,[]
+WGS-March23-143-01-62,TGTTAAACAGTTAAGGTTTTTTACTA,Circ_N,NaCl,[]
+WGS-March23-143-01-63,GTTATAAGAACTAATCATCTTTGGAC,Circ_A1,Alice,[]
+WGS-March23-143-01-64,TTGGCAAAGATTAAGGATATTAAGTC,Circ_A1,Alice,"['ENT1:missense_variant:HET', 'HMG2:missense_variant:HET', 'CTF18:missense_variant:HET', 'DBP2:missense_variant:HET', 'YPR027C:upstream_gene_variant:HET', 'LTP1:upstream_gene_variant:HET']"
+WGS-March23-143-01-65,TGATAAAGAAAGAATCACGTTTCAGA,Circ_L,Lac,[]
+WGS-March23-143-01-66,TATTAAAAATTGAACTACTTTTCTCA,Circ_LF2,Glu/Lac,[]
+WGS-March23-143-01-67,AATAAAATCATTAACATGCTTGTCAC,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-68,GTTGCAAGCCTAAATGCCGTTATAGT,Circ_LF1,Glu/Lac,"['PTK1:upstream_gene_variant:HET', 'YMD8:missense_variant:HET']"
+WGS-March23-143-01-69,TTGAAAATCATAAAGCCAATTGCTCC,Circ_N,NaCl,[]
+WGS-March23-143-01-70,ATCATAACTTATAAATCTCTTTTATT,Circ_N,NaCl,['GYP1:upstream_gene_variant:HOM']
+WGS-March23-143-01-71,TACAAAAATCATAATGTATTCTTTA,Circ_A1,Alice,"['YGR201C:missense_variant:HET', 'YVH1:missense_variant:HET', 'LAA1:missense_variant:HET', 'YJR061W:missense_variant:HET', 'RIM11:missense_variant:HET', 'ADH6:upstream_gene_variant:HET', 'PET494:missense_variant:HET', 'PET494:synonymous_variant:HET', 'RRP6:missense_variant:HET', 'LSP1:upstream_gene_variant:HET', 'GDB1:stop_gained:HET']"
+WGS-March23-143-01-72,CCAGAGGAAAATAGGTTATTAC,Circ_A1,Alice,"['GPD1:missense_variant:HET', 'ENP2:missense_variant:HET', 'GSM1:upstream_gene_variant:HET', 'MPP10:missense_variant:HET', 'MDN1:stop_gained:HET', 'MDM30:missense_variant:HET', 'INP53:synonymous_variant:HET', 'PDR12:synonymous_variant:HET']"
+WGS-March23-143-01-73,GAATAAACACGTAATTGGGTTGTGGG,Circ_L,Lac,[]
+WGS-March23-143-01-74,CATGTAACCGCGAATTTAATTTGTGT,Circ_LF2,Glu/Lac,"['AMN1:missense_variant:HET', 'AFT1:missense_variant:HET', 'AVT3:synonymous_variant:HET', 'AVT3:missense_variant:HET', 'JNM1:synonymous_variant:HET']"
+WGS-March23-143-01-75,CCGCGAATCCCTAATCATATTATACG,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-76,CTCCCAATAGACAACAGAGTTTGAGT,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-77,TCACTAATTCTGAACTATTTTTGATA,Circ_N,NaCl,[]
+WGS-March23-143-01-78,TTGTTAAGCTGCAAGATCGTTGCTGA,Circ_N,NaCl,[]
+WGS-March23-143-01-79,ATCAAAAGAGATAACAAACTTCTTAT,Circ_A1,Alice,"['AGE1:missense_variant:HET', 'NAM9:missense_variant:HET']"
+WGS-March23-143-01-80,GCCGGAAGCGTGAAGGGGGTTTGGGG,Circ_A1,Alice,"['LAG1:missense_variant:HET', 'DAS1:missense_variant:HET', 'SDS22:upstream_gene_variant:HET', 'STT4:upstream_gene_variant:HET', 'RPO31:synonymous_variant:HET']"
+WGS-March23-143-01-81,CTCAAAAGCCAGAAAAGCCTTTAGTT,Circ_L,Lac,[]
+WGS-March23-143-01-82,TCGTCAAATCGAAATGAACTTTTCTT,Circ_LF2,Glu/Lac,[]
+WGS-March23-143-01-83,GAGCGAACCTAAAATTTTGTTCTTAT,Circ_LF1,Glu/Lac,"['SSY1:missense_variant:HET', 'CCP1:missense_variant:HET', 'TAL1:upstream_gene_variant:HET', 'ZDS2:missense_variant:HET', 'POL1:synonymous_variant:HET']"
+WGS-March23-143-01-84,ACAGCAAAGGGCAACGCTGTTGGTTA,Circ_LF1,Glu/Lac,[]
+WGS-March23-143-01-85,TAAACAAAGGTAAAGAAACTTCCGAA,Circ_N,NaCl,[]
+WGS-March23-143-01-86,TACTGAACTGGGAAGGCGCTTGAGAT,Circ_N,NaCl,[]
+WGS-March23-143-01-87,TAGTAAAGCATTAAAAGTCTTAGATT,Circ_A1,Alice,"['HMRA2:upstream_gene_variant:HET', 'tG(GCC)G2:splice_region_variant&synonymous_variant:HET', 'FBA1:upstream_gene_variant:HET', 'NTG2:upstream_gene_variant:HET', 'AUS1:missense_variant:HET', 'SUF11:missense_variant:HET', 'NAN1:missense_variant:HET']"
+WGS-March23-143-01-88,CGCCCAAAATGTAAGTGCGTTTGAGT,Circ_A1,Alice,"['YFL042C:missense_variant:HET', 'ADE5%2C7:synonymous_variant:HET', 'MED11:stop_gained:HET', 'MER1:missense_variant:HET', 'NRT1:upstream_gene_variant:HET', 'RGA1:missense_variant:HET']"
+WGS-March23-143-01-89,GTACCAACCAGTAAAGCTGTTCGTTG,Circ_L,Lac,[]
+WGS-March23-143-01-90,TGGCCAACGACGAATGCCATTGTCAG,Circ_LF2,Glu/Lac,"['DUS3:synonymous_variant:HET', 'FET4:upstream_gene_variant:HET', 'ASE1:upstream_gene_variant:HET', 'KAR9:missense_variant:HET', 'FAS2:missense_variant:HET']"
+WGS-March23-143-01-91,CAAGGAATTAAGAATACGGTTATGGT,Circ_LF1,Glu/Lac,['PEX18:missense_variant:HET']
+WGS-March23-143-01-92,CTCACAAACACCAAAATACTTAGTCC,Circ_LF1,Glu/Lac,"['MRE11:missense_variant:HET', 'COG6:missense_variant:HET']"
+WGS-March23-143-01-93,TCTCTAATCAAAAATCCTGTTCGTAG,Circ_N,NaCl,[]
+WGS-March23-143-01-94,AAATAAAGAGAAAATTCATTTTAGCT,Circ_N,NaCl,[]
+WGS-March23-143-01-95,TACATAAGGATTAACAGTTTTATATG,Circ_A1,Alice,"['YDR274C:upstream_gene_variant:HET', 'COY1:upstream_gene_variant:HET', 'SPG5:missense_variant:HET', 'SPG5:missense_variant:HET', 'SPG5:missense_variant:HET', 'YPR139C:missense_variant:HET']"
+WGS-March23-143-01-96,AACAAAAATCGGAAGACGCTTCTCAT,Circ_A1,Alice,"['DUG2:synonymous_variant:HET', 'YDL177C:upstream_gene_variant:HET', 'YDL162C:upstream_gene_variant:HET', 'ENT5:upstream_gene_variant:HET', 'PHM6:missense_variant:HET', 'YTA7:synonymous_variant:HET', 'ATG7:missense_variant:HET', 'RPI1:missense_variant:HET', 'IRC20:upstream_gene_variant:HET', 'VAM3:synonymous_variant:HET', 'RPS9A:conservative_inframe_deletion:HET', 'tF(GAA)P1:splice_region_variant&intron_variant:HET', 'FHL1:missense_variant:HET']"
+WGS-March23-143-02-01,AGATTAAATACGAATGGGTTTCGTTA,Circ_A1,Alice,"['SNT1:missense_variant:HET', 'ENT5:missense_variant:HET', 'YPI1:missense_variant:HET', 'YTA7:synonymous_variant:HET', 'DYN1:missense_variant:HET', 'SRP40:upstream_gene_variant:HET', 'CSS3:upstream_gene_variant:HET']"
+WGS-March23-143-02-02,GTGAAAAGACATAAATGTATTGCTAG,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-03,GACTGAATGGTCAAAATGTTTGTGGA,Circ_HF1,Glu/H2O2,"['SLY1:synonymous_variant:HET', 'HOS4:missense_variant:HET', 'HOT1:synonymous_variant:HET', 'YNL144C:missense_variant:HET']"
+WGS-March23-143-02-04,TCAAAAAGCGCAAAACCATTTGATAC,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-05,TTGACAATAAATAATGTCGTTTTCTC,Circ_A2,Alice,"['APS3:upstream_gene_variant:HET', 'FAS1:synonymous_variant:HET', 'SMC6:missense_variant:HET', 'COG6:synonymous_variant:HET', 'RPS30B:upstream_gene_variant:HET', 'PUF2:missense_variant:HET']"
+WGS-March23-143-02-06,CCTAAAAAAACCAATGTGCTTATAGC,Circ_A2,Alice,"['ERP1:missense_variant:HET', 'MRPL36:upstream_gene_variant:HET', 'ZRT1:missense_variant:HET', 'AFT1:missense_variant:HET', 'CAF130:missense_variant:HET', 'DUR3:upstream_gene_variant:HET', 'AGE2:upstream_gene_variant:HET', 'MAD3:upstream_gene_variant:HET', 'SSC1:upstream_gene_variant:HET', 'YPL205C:missense_variant:HET', 'YME1:synonymous_variant:HET']"
+WGS-March23-143-02-07,CGTTTAAATCCGAATTTTTTTTCCGT,Circ_A2,Alice,"['SAS10:missense_variant:HET', 'NRG1:missense_variant:HET', 'SEC26:missense_variant:HET', 'ZRT1:downstream_gene_variant:HET', 'ESP1:missense_variant:HET', 'PRI1:missense_variant:HET', 'tW(CCA)K:upstream_gene_variant:HET', 'SPO75:synonymous_variant:HET', 'LEM3:synonymous_variant:HET', 'TSR4:missense_variant:HET', 'YPL108W:missense_variant:HET']"
+WGS-March23-143-02-08,TAAATAACGTATAAGTCTGTTGTATC,Circ_H,H2O2,"['RPS16B:upstream_gene_variant:HET', 'SRP40:upstream_gene_variant:HET', 'GDB1:missense_variant:HET']"
+WGS-March23-143-02-09,AATTGAAAATTAAACTTAGTTAGATC,Circ_A1,Alice,"['SEF1:missense_variant:HET', 'CDC39:missense_variant:HET', 'GIT1:upstream_gene_variant:HET', 'ATG20:synonymous_variant:HET', 'MDE1:missense_variant:HET', 'HIF1:missense_variant:HET', 'MET17:synonymous_variant:HET']"
+WGS-March23-143-02-10,GTAAGAATATGTAATATTATTTTGAA,Circ_HF1,Glu/H2O2,"['FMT1:missense_variant:HET', 'POP7:synonymous_variant:HET', 'BIK1:upstream_gene_variant:HET', 'CMR1:missense_variant:HET', 'TRK1:synonymous_variant:HET']"
+WGS-March23-143-02-11,AGAAAAATCGAAAAATTCGTTTACAG,Circ_HF1,Glu/H2O2,"['YBR113W:stop_gained:HET', 'CTF3:missense_variant:HET', 'NPL6:upstream_gene_variant:HET', 'YOR309C:stop_gained:HET']"
+WGS-March23-143-02-12,CGTTTAATCACGAAATTATTTACATT,Circ_HF1,Glu/H2O2,"['ACH1:missense_variant:HET', 'YCL076W:downstream_gene_variant:HET', 'YDR543C:synonymous_variant:HET', 'YHL005C:missense_variant:HET', 'PDR8:upstream_gene_variant:HET', 'MGR2:missense_variant:HET']"
+WGS-March23-143-02-13,GGAGAAACAGTCAACCTGTTTAAGTC,Circ_A2,Alice,[]
+WGS-March23-143-02-14,CAGCAAAAGGGGAAGGGCCTTCGGGG,Circ_A2,Alice,"['ADR1:missense_variant:HET', 'INO80:missense_variant:HET', 'URA1:missense_variant:HET', 'MTR2:missense_variant:HET', 'YNL247W:missense_variant:HET']"
+WGS-March23-143-02-15,ACCACAACTATTAAGTTGTTTGACGG,Circ_A2,Alice,[]
+WGS-March23-143-02-16,GAGAGGAAACACAAACGGGTTTGGCTC,Circ_H,H2O2,"['POL3:missense_variant:HET', 'MRX9:missense_variant:HET', 'TIF35:upstream_gene_variant:HET', 'MFA1:missense_variant:HET', 'PEX18:missense_variant:HET', 'PFA3:upstream_gene_variant:HET', 'SAS5:missense_variant:HET']"
+WGS-March23-143-02-17,AGGTCAACATTCAACATGGTTCCCGA,Circ_A1,Alice,[]
+WGS-March23-143-02-18,TAGTTAACACAAAAAACCGTTAAATG,Circ_HF1,Glu/H2O2,"['CCR4:missense_variant:HET', 'NPP2:missense_variant:HET', 'BOI2:missense_variant:HET', 'PBP1:upstream_gene_variant:HET']"
+WGS-March23-143-02-19,GTAGGAAACTAGAATCTGCTTTGGAA,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-20,TCGGTAATAAACAAACAGTTTCTGGT,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-21,TGGAGAACTCACAATCAAGTTATTAA,Circ_A2,Alice,"['ACS1:upstream_gene_variant:HET', 'SEF1:upstream_gene_variant:HET', 'SLI15:synonymous_variant:HET', 'tC(GCA)B:stop_lost:HET', 'ZRT3:missense_variant:HET', 'CDC45:missense_variant:HET', 'ESF2:missense_variant:HET']"
+WGS-March23-143-02-22,ATGAAAAGTTTCAAATGGTTTTGTTA,Circ_A2,Alice,[]
+WGS-March23-143-02-23,TTGGGAATAAGTAATAACTTTGTTTT,Circ_A2,Alice,"['SUB2:missense_variant:HET', 'YFR052C-A:upstream_gene_variant:HET', 'IRC24:start_lost:HET', 'YML002W:stop_gained:HET']"
+WGS-March23-143-02-24,ACACCAAAATTCAAGCCTATTTGTAC,Circ_H,H2O2,[]
+WGS-March23-143-02-25,TCCGAAATGTAGAATATAGTTAGCAA,Circ_HF2,Glu/H2O2,"['NUP170:missense_variant:HET', 'YBR071W:missense_variant:HET', 'UBP1:missense_variant:HET', 'GLC3:missense_variant:HET', 'AQY3:missense_variant:HET', 'KDX1:missense_variant:HET', 'DIP2:missense_variant:HET', 'ILV2:missense_variant:HET', 'DSS4:missense_variant:HET']"
+WGS-March23-143-02-26,TCACTAAAGCTTAACTAAATTTAAGT,Circ_HF1,Glu/H2O2,"['TOD6:missense_variant:HET', 'PDC2:missense_variant:HET', 'YDR381C-A:synonymous_variant:HET', 'MAD1:missense_variant:HET', 'CSF1:missense_variant:HET', 'RSA3:upstream_gene_variant:HET', 'PDR16:upstream_gene_variant:HET']"
+WGS-March23-143-02-27,TGCCAAACACAGAATAAGGTTGTAAT,Circ_HF1,Glu/H2O2,"['BPH1:missense_variant:HET', 'PHO13:missense_variant:HET', 'RPL4B:upstream_gene_variant:HET', 'PIB1:upstream_gene_variant:HET', 'HOG1:missense_variant:HET', 'RET1:upstream_gene_variant:HET']"
+WGS-March23-143-02-28,ATAACAAGCGTAAAAAATGTTCCCTT,Circ_HF1,Glu/H2O2,['tA(AGC)L:upstream_gene_variant:HET']
+WGS-March23-143-02-29,CGTATAATGCCTAATGGTCTTTTGCA,Circ_A2,Alice,"['PEP1:upstream_gene_variant:HET', 'SUA5:missense_variant:HET', 'MF(ALPHA)2:missense_variant:HET', 'BUB1:synonymous_variant:HET', 'FPR3:synonymous_variant:HET', 'PUF2:stop_gained:HET']"
+WGS-March23-143-02-30,TTTGAAAATGATAAATTCCTTTACTC,Circ_A2,Alice,"['TDH3:upstream_gene_variant:HET', 'YHR145C:synonymous_variant:HET', 'RBH1:synonymous_variant:HET', 'TRS130:missense_variant:HET', 'LTP1:upstream_gene_variant:HET']"
+WGS-March23-143-02-31,ACTTAAAGAAGAAAATGCGTTAATGT,Circ_H,H2O2,"['AAD3:missense_variant:HET', 'FAP7:frameshift_variant:HET', 'APC4:missense_variant:HET', 'SIR4:missense_variant:HET', 'DAK2:missense_variant:HET', 'NSA1:upstream_gene_variant:HET', 'AFT1:missense_variant:HET', 'YHL008C:missense_variant:HET', 'SPL2:upstream_gene_variant:HET', 'GSH1:upstream_gene_variant:HET']"
+WGS-March23-143-02-32,ATGAAAAACATTAAATCTCTTGGTTC,Circ_H,H2O2,[]
+WGS-March23-143-02-33,AAGACAAGGAGTAACCTCATTACATG,Circ_A1,Alice,"['TEL1:upstream_gene_variant:HET', 'TEL1:upstream_gene_variant:HET', 'PFK26:upstream_gene_variant:HET', 'PEX13:missense_variant:HET', 'GAB1:missense_variant:HET', 'IRA2:missense_variant:HET', 'PUS1:upstream_gene_variant:HET', 'PUS1:upstream_gene_variant:HET', 'PUS1:upstream_gene_variant:HET', 'PUS1:upstream_gene_variant:HET', 'PUS1:upstream_gene_variant:HET']"
+WGS-March23-143-02-34,GTTCAAATGATTAAGAGAGTTCTCGC,Circ_HF1,Glu/H2O2,"['IME2:missense_variant:HET', 'SPT21:synonymous_variant:HET', 'THI22:missense_variant:HET']"
+WGS-March23-143-02-35,GCTTAAAAACTAAATCTAATTTTTTT,Circ_HF1,Glu/H2O2,"['OAF1:synonymous_variant:HET', 'IWR1:upstream_gene_variant:HET', 'SUP35:missense_variant:HET', 'YER062C:missense_variant:HET', 'YER158C:missense_variant:HET', 'KXD1:upstream_gene_variant:HET', 'tV(AAC)G1:synonymous_variant:HET', 'RPS4A:upstream_gene_variant:HET', 'NKP2:missense_variant:HET', 'YMR244W:missense_variant:HET', 'POR1:missense_variant:HET', 'DSE4:upstream_gene_variant:HET', 'HRR25:missense_variant:HET']"
+WGS-March23-143-02-36,CATGTAACATAGAATGGCTTTTTGGGT,Circ_HF1,Glu/H2O2,"['REG1:upstream_gene_variant:HET', 'RSC1:upstream_gene_variant:HET', 'tL(UAA)L:upstream_gene_variant:HET', 'NTE1:synonymous_variant:HET', 'FMP41:missense_variant:HET']"
+WGS-March23-143-02-37,AGTTCAACTCAAAAAAGGTTTTACGT,Circ_A2,Alice,[]
+WGS-March23-143-02-38,CTCATAAGGTGGAACTCCTTTTGGCG,Circ_A2,Alice,[]
+WGS-March23-143-02-39,ACATCAATCTGGAAACAGGTTCTGCC,Circ_H,H2O2,[]
+WGS-March23-143-02-40,GCTGAAAAGTTGAACCCAGTTTTTTG,Circ_H,H2O2,"['RPO21:missense_variant:HET', 'TOS2:missense_variant:HET', 'YIL055C:missense_variant:HET', 'CST6:missense_variant:HET', 'UTP18:synonymous_variant:HET', 'ERF2:synonymous_variant:HET', 'MCM5:missense_variant:HET', 'SRC1:missense_variant:HET', 'MAC1:missense_variant:HET', 'CUS1:synonymous_variant:HET', 'ATG11:upstream_gene_variant:HET']"
+WGS-March23-143-02-41,GCTGGAACATTCAATTCTTTTCATCG,Circ_A1,Alice,"['YDR537C:upstream_gene_variant:HET', 'INM1:upstream_gene_variant:HET', 'CDC73:upstream_gene_variant:HET', 'TOF1:frameshift_variant:HET', 'tP(UGG)N2:missense_variant:HET', 'tA(UGC)O:synonymous_variant:HET']"
+WGS-March23-143-02-42,CATTAAATGTCAAATCTTGTTTTAGT,Circ_HF1,Glu/H2O2,"['BPH1:synonymous_variant:HET', 'GLO2:missense_variant:HET', 'RAD3:synonymous_variant:HET', 'MCM6:upstream_gene_variant:HET', 'MHP1:missense_variant:HET', 'YBT1:missense_variant:HET', 'YNR063W:upstream_gene_variant:HET', 'TIM18:upstream_gene_variant:HET', 'SEC8:missense_variant:HET', 'YLH47:missense_variant:HET']"
+WGS-March23-143-02-43,TGTTTAAAGCATAATTTCCTTAAGAT,Circ_HF1,Glu/H2O2,"['SPT3:missense_variant:HET', 'SNO3:upstream_gene_variant:HET', 'SNO3:upstream_gene_variant:HET', 'AFT1:missense_variant:HET', 'TMA108:missense_variant:HET', 'IML1:missense_variant:HET', 'NFT1:missense_variant:HET']"
+WGS-March23-143-02-44,AAGTAAAAGAGGAAGGGGGTTGCGCC,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-45,GTTGTAATATGTAAATAGTTTCTAA,Circ_A2,Alice,[]
+WGS-March23-143-02-46,AACACAATAATAAAGATCGTTTTTAG,Circ_A2,Alice,"['MYO1:missense_variant:HET', 'CIN1:synonymous_variant:HET']"
+WGS-March23-143-02-47,TTACTAAATAAAAAGGGCGTTGAAAA,Circ_H,H2O2,[]
+WGS-March23-143-02-48,ATTTAAAATATTAATATATTTAACAG,Circ_H,H2O2,[]
+WGS-March23-143-02-49,AATCTAATGTATAACTAATTCTCGC,Circ_A1,Alice,"['VMR1:upstream_gene_variant:HET', 'YIL055C:upstream_gene_variant:HET']"
+WGS-March23-143-02-50,GAGGAAATCTCTAATAGGCTTCAATT,Circ_HF1,Glu/H2O2,"['ETR1:synonymous_variant:HET', 'tH(GUG)E2:upstream_gene_variant:HET', 'AFT1:missense_variant:HET', 'PSE1:stop_gained:HET', 'ABZ1:missense_variant:HET']"
+WGS-March23-143-02-51,TCGAGAAAAGAGAATGGTGTTTCGCG,Circ_HF1,Glu/H2O2,"['AFT1:missense_variant:HET', 'CHO2:missense_variant:HET', 'SEC72:upstream_gene_variant:HET', 'YOR019W:synonymous_variant:HET']"
+WGS-March23-143-02-52,AATGGAATAGATAAGCTTCTTATACC,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-53,GAGTTAACCGGTAAGGGGCTTCATAC,Circ_A2,Alice,[]
+WGS-March23-143-02-54,CGGATAATCGTGAAAGCTCTTGCCGG,Circ_A2,Alice,"['MRPL28:missense_variant:HET', 'CUP2:missense_variant:HET', 'YGR269W:missense_variant:HET', 'YKL050C:missense_variant:HET', 'YKR015C:synonymous_variant:HET', 'RCM1:missense_variant:HET', 'YOL013W-B:missense_variant:HET', 'HRD1:upstream_gene_variant:HET', 'ALG8:missense_variant:HET', 'MOT1:synonymous_variant:HET']"
+WGS-March23-143-02-55,GCAGAAATTATTAACCGGCTTACCTC,Circ_H,H2O2,[]
+WGS-March23-143-02-56,ACCCTAACACCAAAATGCATTCCTAA,Circ_H,H2O2,[]
+WGS-March23-143-02-57,CCCTTAAATTACAAAGCACTTAAAGT,Circ_A1,Alice,"['YFL066C:upstream_gene_variant:HET', 'tH(GUG)K:upstream_gene_variant:HET', 'UBP11:upstream_gene_variant:HET', 'VMA13:missense_variant:HET']"
+WGS-March23-143-02-58,AACATAAATTTTAACCCCTTTACGGG,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-59,CCCCCAACATTCAACAAGATTGCTGT,Circ_HF1,Glu/H2O2,"['HEM3:missense_variant:HET', 'UFD2:synonymous_variant:HET', 'MRM2:upstream_gene_variant:HET', 'STE6:upstream_gene_variant:HET', 'NRT1:missense_variant:HET', 'SPO24:upstream_gene_variant:HET']"
+WGS-March23-143-02-60,ATTTCAAACCGAAATTCGATTTGGAC,Circ_HF1,Glu/H2O2,"['RTG2:upstream_gene_variant:HET', 'AFT1:missense_variant:HET', 'DNA2:missense_variant:HET', 'YCS4:missense_variant:HET', 'HEF3:missense_variant:HET', 'YOR019W:frameshift_variant:HET', 'FIT3:upstream_gene_variant:HET', 'EEB1:upstream_gene_variant:HET']"
+WGS-March23-143-02-61,GCCTTAAACGCCAAAGACTTTTTGTT,Circ_A2,Alice,"['YRO2:synonymous_variant:HET', 'RPN2:upstream_gene_variant:HET', 'DHR2:missense_variant:HET', 'SGS1:missense_variant:HET', 'EGT2:synonymous_variant:HET', 'BRX1:missense_variant:HET']"
+WGS-March23-143-02-62,CCTATAAAGAAAAATAATGT,Circ_A2,Alice,"['APM3:missense_variant:HET', 'ENA1:upstream_gene_variant:HET', 'DOT6:missense_variant:HET', 'EMP47:missense_variant:HET', 'RAD54:synonymous_variant:HET', 'RPT1:missense_variant:HET', 'MRS6:missense_variant:HET']"
+WGS-March23-143-02-63,TTACAAATCCTAAAGTACATTTCGGT,Circ_H,H2O2,[]
+WGS-March23-143-02-64,TACATAACATGAAATAAGCTTAGCGC,Circ_HF2,Glu/H2O2,"['HMRA2:upstream_gene_variant:HET', 'STE2:synonymous_variant:HET', 'tF(GAA)G:upstream_gene_variant:HET', 'PPT1:upstream_gene_variant:HET', 'ENO1:missense_variant:HET', 'YHL008C:upstream_gene_variant:HET', 'RPL16A:upstream_gene_variant:HET', 'VPS70:missense_variant:HET', 'FAA1:missense_variant:HET', 'PIN3:missense_variant:HET']"
+WGS-March23-143-02-65,GCTAGAACATACAACGTTATTGTTGC,Circ_A1,Alice,"['SLI15:missense_variant:HET', 'PPT1:upstream_gene_variant:HET', 'PSO2:stop_gained:HET']"
+WGS-March23-143-02-66,TCTCCAAGAGGTAAGTAAATTGAGGT,Circ_HF1,Glu/H2O2,"['TOS1:missense_variant:HET', 'VBA4:missense_variant:HET', 'SEC1:missense_variant:HET', 'SWR1:missense_variant:HET', 'MRX1:upstream_gene_variant:HET', 'TIF4632:missense_variant:HET', 'HCS1:synonymous_variant:HET', 'HAP1:missense_variant:HET', 'HAP1:missense_variant:HET', 'FAR8:missense_variant:HET', 'ADE2:upstream_gene_variant:HET', 'PNS1:missense_variant:HET', 'THI6:synonymous_variant:HET', 'RPN7:missense_variant:HET']"
+WGS-March23-143-02-67,GGTTAAATGGTGAACACTCTTCTGGC,Circ_HF1,Glu/H2O2,"['FLO1:downstream_gene_variant:HET', 'FLO1:downstream_gene_variant:HET', 'UFD2:upstream_gene_variant:HET', 'PEX3:missense_variant:HET', 'MHP1:missense_variant:HET', 'SPC1:upstream_gene_variant:HET', 'YMR155W:synonymous_variant:HET', 'LSC1:missense_variant:HET', 'YOR292C:upstream_gene_variant:HET', 'BRR1:missense_variant:HET', 'YPR158C-D:upstream_gene_variant:HET', 'BSP1:synonymous_variant:HET']"
+WGS-March23-143-02-68,ATTTTAATCTATAAGGCAGTTATGTC,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-69,TAAACAAGAAGGAAGTATGTTCGCAC,Circ_A2,Alice,"['UBP14:missense_variant:HET', 'YDL228C:upstream_gene_variant:HET', 'VAM6:missense_variant:HET', 'ORM1:missense_variant:HET', 'ORM1:synonymous_variant:HET', 'SSC1:stop_gained:HET', 'ATM1:missense_variant:HET']"
+WGS-March23-143-02-70,CTAATAAACGAGAAACACTTTGCAAG,Circ_A2,Alice,"['MTC5:missense_variant:HET', 'RPH1:missense_variant:HET', 'DSE4:missense_variant:HET']"
+WGS-March23-143-02-71,TGGACAATTCGCAACATTCTTCGTTG,Circ_H,H2O2,[]
+WGS-March23-143-02-72,TATGGAAAACAGAAGCATCTTAATGG,Circ_HF2,Glu/H2O2,"['FUB1:missense_variant:HET', 'UGX2:missense_variant:HET', 'TIF34:missense_variant:HET', 'EAF7:stop_gained:HET', 'MSC6:missense_variant:HET', 'YPL277C:upstream_gene_variant:HET']"
+WGS-March23-143-02-73,TAGGGAAGGGCGAACGGTGTTGCGAT,Circ_A1,Alice,"['MSH6:missense_variant:HET', 'RAV2:synonymous_variant:HET', 'MNT2:upstream_gene_variant:HET', 'MUP1:missense_variant:HET', 'YGR293C:upstream_gene_variant:HET', 'NUP133:synonymous_variant:HET']"
+WGS-March23-143-02-74,ACACGAAGCGCCAAATATATTAGAAG,Circ_HF1,Glu/H2O2,"['FRE1:synonymous_variant:HET', 'PLC1:missense_variant:HET']"
+WGS-March23-143-02-75,ACATAAATTGGTAAGATGGTTGGGGG,Circ_HF1,Glu/H2O2,"['URA7:upstream_gene_variant:HET', 'YCF1:missense_variant:HET', 'MNN10:synonymous_variant:HET', 'UBP10:missense_variant:HET']"
+WGS-March23-143-02-76,AAATTAAAACGGAAGTTGCTTGCCGG,Circ_A2,Alice,"['HSP78:stop_gained:HET', 'TRS120:missense_variant:HET', 'PDA1:missense_variant:HET', 'THI21:missense_variant:HET', 'GDE1:missense_variant:HET']"
+WGS-March23-143-02-77,GTATTAAGCCATAATCGGATTCTTTG,Circ_A2,Alice,"['HMRA2:upstream_gene_variant:HET', 'MSS4:missense_variant:HET', 'VPS3:synonymous_variant:HET', 'SCM4:synonymous_variant:HET', 'INM1:upstream_gene_variant:HET', 'INM1:upstream_gene_variant:HET', 'LIN1:missense_variant:HET', 'FMC1:missense_variant:HET', 'JSN1:missense_variant:HET', 'MED1:synonymous_variant:HET']"
+WGS-March23-143-02-78,ATCATAAGAGTAAACCTGGTTGGACG,Circ_A2,Alice,[]
+WGS-March23-143-02-79,TATTTAATTTTAAAATCCCTTTTGTC,Circ_H,H2O2,"['CDC6:missense_variant:HET', 'GMH1:missense_variant:HET', 'ALT1:missense_variant:HET', 'DCI1:upstream_gene_variant:HET', 'IQG1:missense_variant:HET', 'CTI6:missense_variant:HET']"
+WGS-March23-143-02-80,CAGGGAATAGCAAAGATCATTTTTAA,Circ_HF2,Glu/H2O2,['PCH2:missense_variant:HOM']
+WGS-March23-143-02-81,CAAGTAAGAGGGAAACGGGTTCGCGC,Circ_HF1,Glu/H2O2,"['DAS1:missense_variant:HET', 'OMA1:missense_variant:HET']"
+WGS-March23-143-02-82,TCTTCAAATGTGAAAACGTTTCAGGA,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-83,TTGAGAAGGATCAACGTACTTGCGAG,Circ_HF1,Glu/H2O2,['RPM2:upstream_gene_variant:HET']
+WGS-March23-143-02-84,ACCTGAAGTGGTAAAGTATTTATGAG,Circ_A2,Alice,"['GLE1:missense_variant:HET', 'FCY21:missense_variant:HET', 'KIP3:missense_variant:HET', 'LIF1:missense_variant:HET']"
+WGS-March23-143-02-85,TTCGCAACCGATAATAAGGTTTTGAA,Circ_A2,Alice,"['MDM10:synonymous_variant:HET', 'TRM3:missense_variant:HET', 'ADE6:stop_gained:HET', 'ARC15:upstream_gene_variant:HET', 'SIP4:missense_variant:HET', 'BUL1:synonymous_variant:HET', 'YPR117W:synonymous_variant:HET']"
+WGS-March23-143-02-86,CCAGCAAACTGGAATGTACTTACGAG,Circ_A2,Alice,"['SLM3:upstream_gene_variant:HET', 'DNF2:missense_variant:HET', 'DOG2:upstream_gene_variant:HET', 'YIL169C:upstream_gene_variant:HET', 'YKR078W:synonymous_variant:HET', 'RPT5:missense_variant:HET', 'TIP41:missense_variant:HET']"
+WGS-March23-143-02-87,AGGAGAACTCGGAATAAGGTTATTTA,Circ_H,H2O2,"['CLN3:missense_variant:HET', 'CRD1:missense_variant:HET', 'YGR125W:missense_variant:HET', 'ENO2:missense_variant:HET']"
+WGS-March23-143-02-88,AGGTTAACCACCAGAGCCTTGACCG,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-02-89,TTGACAATTCAGAAGTTCGTTAACTG,Circ_HF1,Glu/H2O2,[]
+WGS-March23-143-02-90,AAGATAAATGACAAACGACTTCAAGA,Circ_HF1,Glu/H2O2,"['BBC1:missense_variant:HET', 'VBA1:synonymous_variant:HET', 'IRC15:missense_variant:HET', 'HDA3:stop_gained:HET']"
+WGS-March23-143-02-91,TAGTTAACACTGAAATTTTTTGTAAG,Circ_HF1,Glu/H2O2,"['BUB1:upstream_gene_variant:HET', 'DGA1:upstream_gene_variant:HET']"
+WGS-March23-143-02-92,TTAATAATCTATAATCCAATTTGAAA,Circ_A2,Alice,"['FES1:synonymous_variant:HET', 'YCR099C:upstream_gene_variant:HET', 'MAK21:missense_variant:HET', 'tR(UCU)G2:upstream_gene_variant:HET']"
+WGS-March23-143-02-93,AGGATAAAAGGTAATTTTCTTATACG,Circ_A2,Alice,"['YGR269W:missense_variant:HET', 'VID22:upstream_gene_variant:HET', 'CUE4:missense_variant:HET']"
+WGS-March23-143-02-94,ACGGAAAGAGAGAATGGGCTTGCAGT,Circ_A2,Alice,"['UBP14:synonymous_variant:HET', 'SEC15:missense_variant:HET', 'YGR121W-A:missense_variant:HET', 'VMR1:upstream_gene_variant:HET', 'VMR1:upstream_gene_variant:HET', 'RFU1:synonymous_variant:HET', 'REC114:missense_variant:HET', 'MSS11:upstream_gene_variant:HET']"
+WGS-March23-143-02-95,ACGATAAGACTTAAAATTCTTTTTAT,Circ_H,H2O2,"['FLR1:missense_variant:HET', 'CDC13:missense_variant:HET', 'PTC1:missense_variant:HET', 'HXT13:upstream_gene_variant:HET', 'RAD4:start_lost:HET']"
+WGS-March23-143-02-96,AACGCAACAAACAACACTTTTGCAGC,Circ_HF2,Glu/H2O2,"['CDC27:missense_variant:HET', 'BUD3:missense_variant:HET', 'SOL2:missense_variant:HET', 'UTP13:missense_variant:HET', 'RTS1:missense_variant:HET']"
+WGS-March23-143-03-01,ACTAAAATAGTAAAGATGTTTGATTA,Circ_HF2,Glu/H2O2,"['ARN1:upstream_gene_variant:HET', 'GCV2:missense_variant:HET']"
+WGS-March23-143-03-02,GAGGCAAATGATAACTTTGTTAGGC,Circ_HF2,Glu/H2O2,"['MAL33:upstream_gene_variant:None', 'SWI5:missense_variant:HET', 'tH(GUG)G1:upstream_gene_variant:HET', 'DSD1:upstream_gene_variant:HET', 'AFT1:missense_variant:HET', 'YMR1:synonymous_variant:HET', 'PRP16:missense_variant:HET', 'PEX6:upstream_gene_variant:HET', 'YOR365C:missense_variant:HET']"
+WGS-March23-143-03-03,AACCGAATCACAAAGTCTATTTATTT,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-04,CGCCTAAAGCGCAATAAATTTGCAAC,SEvo_G,Glu,[]
+WGS-March23-143-03-05,GCCTCAAACGTTAAGGCATTTGAAGG,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-06,TGTTTAATTTTGAATTGTTTTATTGC,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-07,CTGTTAAGTTCAAAGTGGATTGAAGC,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-08,TGTAGAAATTCGAAGCGAATTGTGGT,SEvo_N,NaCl,[]
+WGS-March23-143-03-09,CATTAAATAAGAAAGATTGTTAGTCT,Circ_HF2,Glu/H2O2,"['HFA1:upstream_gene_variant:HET', 'GAD1:synonymous_variant:HET']"
+WGS-March23-143-03-10,CCATTAAACAAGAACTTCGTTGGCTC,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-11,AATCGAATCTAAAATGCCATTCCGCT,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-12,AGGCTAATTGCCAATGTTGTTCGTCG,SEvo_G,Glu,"['LAM4:upstream_gene_variant:HET', 'TRZ1:missense_variant:HET', 'RKR1:stop_gained:HET']"
+WGS-March23-143-03-13,CTGTGAACGCAGAAGGCCTTTGCACG,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-14,TCGGCAAGTTACAATGGTTTTCTCTA,SEvo_GalF,Glu/Gal,"['SYG1:missense_variant:HET', 'EST3:upstream_gene_variant:HET', 'YJL215C:missense_variant:HET']"
+WGS-March23-143-03-15,GAGTTAAAATTCAAAATTTTTAATCG,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-16,CTACAAATCAACAAATGTTTTATCTT,SEvo_N,NaCl,[]
+WGS-March23-143-03-17,AATGTAAGACAGAAATGTCTTGACGT,Circ_HF2,Glu/H2O2,['EFR3:upstream_gene_variant:HET']
+WGS-March23-143-03-18,ATTCAAAATACAAAAAACCTTGTCTC,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-19,ATATTAATTCGTAATATTATTTGGGA,Circ_HF2,Glu/H2O2,"['VMA2:upstream_gene_variant:HET', 'SPP41:missense_variant:HET', 'RIM15:missense_variant:HET', 'AFT1:missense_variant:HET', 'CWH41:missense_variant:HET', 'NNF2:missense_variant:HET']"
+WGS-March23-143-03-20,ACCATAAACTCGAAGCGGTTTAGATG,SEvo_G,Glu,"['PUS1:missense_variant:HET', 'PUS1:missense_variant:HET']"
+WGS-March23-143-03-21,ACTGAAACCTAGAACGCTGTTGAATA,SEvo_GalF,Glu/Gal,"['NUP192:missense_variant:HET', 'ACP1:stop_gained:HET']"
+WGS-March23-143-03-22,TCAGTAAATGCAAAGCTTTTTCCTAC,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-23,AGATAAAAATGAAAGGGAGTTACCGG,SEvo_GalF,Glu/Gal,['MPH3:upstream_gene_variant:HET']
+WGS-March23-143-03-24,AATTGAATAGAGAAAAATATTAGATG,SEvo_N,NaCl,[]
+WGS-March23-143-03-25,GACTTAAAGGTCAACAAGTTTTTATC,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-26,TCTTCAATCTTGAACAGGTTTTAGGA,Circ_HF2,Glu/H2O2,"['PRP3:missense_variant:HET', 'RSC8:synonymous_variant:HET', 'RRT6:missense_variant:HET', 'RCO1:missense_variant:HET', 'DCS2:missense_variant:HET']"
+WGS-March23-143-03-27,AAACTAATCGGTAAGTATTTTATAGT,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-28,TAGGTAATATCTAATATGGTTGTTTA,SEvo_G,Glu,['YCF1:upstream_gene_variant:HET']
+WGS-March23-143-03-29,ATCACAATATCAAAGCACCTTATAAC,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-30,GTTCAAATGATTAAAGACTTTTCTTA,SEvo_GalF,Glu/Gal,"['RNH70:missense_variant:HET', 'YKL162C-A:upstream_gene_variant:HET']"
+WGS-March23-143-03-31,GGATTAAATGAGAATTTATTTGAGTG,SEvo_N,NaCl,[]
+WGS-March23-143-03-32,AAGGGAAAATGGAATAATATTCTTCT,SEvo_N,NaCl,[]
+WGS-March23-143-03-33,CGTGCAAGCTCGAATTTATTTGTTTA,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-34,AAAGCAATTCAAAACGTTTTTGAACG,Circ_HF2,Glu/H2O2,"['UBP6:frameshift_variant:HET', 'FMP48:missense_variant:HET', 'MTG2:missense_variant:HET', 'USB1:upstream_gene_variant:HET']"
+WGS-March23-143-03-35,TTTAGAATGTCTAATTATCTTGATT,Circ_HF2,Glu/H2O2,"['LCD1:synonymous_variant:HET', 'AQY3:upstream_gene_variant:HET', 'CRT10:missense_variant:HET', 'CRT10:missense_variant:HET', 'CIT3:synonymous_variant:HET']"
+WGS-March23-143-03-36,ACTACAATGCGTAACTCGTTTTGTTT,SEvo_G,Glu,"['NRT1:upstream_gene_variant:HET', 'RPL7B:missense_variant:HET']"
+WGS-March23-143-03-37,TTGTAAATAGATAAATATATTGGCTT,SEvo_GalF,Glu/Gal,['COS8:missense_variant:HET']
+WGS-March23-143-03-38,GAATTAAACATAAACAATATTATTTA,SEvo_GalF,Glu/Gal,['RAX1:missense_variant:HET']
+WGS-March23-143-03-39,GTCATAAAGTGTAAGCTAGTTACCAT,SEvo_N,NaCl,['HPF1:disruptive_inframe_deletion:HET']
+WGS-March23-143-03-40,AGATCAAAACGCAAGAGATTTATTAA,SEvo_N,NaCl,[]
+WGS-March23-143-03-41,GGTAAAATCTCTAAGTTTCTTGATTC,Circ_HF2,Glu/H2O2,"['CAF130:missense_variant:HET', 'PAM16:upstream_gene_variant:HET', 'DRE2:synonymous_variant:HET', 'ECM5:missense_variant:HET']"
+WGS-March23-143-03-42,GAATTAAAAGCGAATAATGTTGAAAT,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-43,TCGCTAATTAGTAAATTGCTTGTACC,SEvo_G,Glu,[]
+WGS-March23-143-03-44,TCAAAAAAGTGTAAACCTCTTTTGTC,SEvo_G,Glu,"['ALP1:missense_variant:HET', 'CIN1:missense_variant:HET']"
+WGS-March23-143-03-45,TCACAAAGCCTCAATCGCTTTCCGGA,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-46,AAGGGAAATGATAACAATGTTTGTAC,SEvo_GalF,Glu/Gal,"['tR(UCU)G2:stop_lost:HET', 'CDA1:missense_variant:HET']"
+WGS-March23-143-03-47,TATAAAAATGGGAACTAGTTTGAGGC,SEvo_N,NaCl,['NIP100:frameshift_variant:HOM']
+WGS-March23-143-03-48,TGTTCAACCAACAAAAGTGTTGAGTG,SEvo_N,NaCl,[]
+WGS-March23-143-03-49,CTATGAATAAGAAACTAACTTGTGCT,Circ_HF2,Glu/H2O2,"['YDR098C-B:upstream_gene_variant:HET', 'DIN7:synonymous_variant:HET', 'MET6:synonymous_variant:HET', 'NUP157:missense_variant:HET', 'FET5:missense_variant:HET', 'CDC14:upstream_gene_variant:HET', 'PMC1:missense_variant:HET', 'TFC4:upstream_gene_variant:HET', 'YGR054W:missense_variant:HET', 'YPT35:missense_variant:HET', 'CAB2:upstream_gene_variant:HET', 'KHA1:missense_variant:HET', 'YLR402W:missense_variant:HET', 'BCH1:missense_variant:HET', 'MNE1:upstream_gene_variant:HET', 'MRS6:synonymous_variant:HET', 'YPL077C:missense_variant:HET']"
+WGS-March23-143-03-50,GATTCAAAGTTAAACAGGGTTCACTA,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-51,GCGGTAATATCAAATCATGTTCTTGT,SEvo_G,Glu,['IRA1:stop_gained:HET']
+WGS-March23-143-03-52,GTACTAAGCATCAAAACGGTTTATTC,SEvo_G,Glu,"['AKR1:synonymous_variant:HET', 'PAL1:upstream_gene_variant:HET', 'PAC1:missense_variant:HET']"
+WGS-March23-143-03-53,AGATGAACAAGTAATGTGGTTACGGC,SEvo_GalF,Glu/Gal,"['OAF1:synonymous_variant:None', 'CLN3:missense_variant:None', 'CYC3:disruptive_inframe_deletion:None', 'DRS2:missense_variant:None', 'TEL1:missense_variant:None', 'CDC27:upstream_gene_variant:None', 'TOD6:synonymous_variant:None', 'URA7:upstream_gene_variant:None', 'FUR4:missense_variant:None', 'ETR1:synonymous_variant:None', 'YBR071W:missense_variant:None', 'IST2:upstream_gene_variant:None', 'SLI15:missense_variant:None', 'CDC28:upstream_gene_variant:None', 'TOS1:missense_variant:None', 'YBR184W:missense_variant:None', 'PCH2:missense_variant:None', 'GDT1:missense_variant:None', 'CHA1:missense_variant:None', 'YCL041C:missense_variant:None', 'SNT1:missense_variant:None', 'PHO87:missense_variant:None', 'YCR051W:missense_variant:None', 'FUB1:missense_variant:None', 'HMRA2:upstream_gene_variant:None', 'RDS1:stop_gained:None', 'GLE1:missense_variant:None', 'HEM3:missense_variant:None', 'UFD2:synonymous_variant:None', 'UFD2:upstream_gene_variant:None', 'UGX2:missense_variant:None', 'CRD1:missense_variant:None', 'IWR1:upstream_gene_variant:None', 'SLM3:upstream_gene_variant:None', 'ENA1:missense_variant:None', 'ENA1:synonymous_variant:None', 'ENA1:synonymous_variant:None', 'ENA1:missense_variant:None', 'ENA1:missense_variant:None', 'ENA1:synonymous_variant:None', 'ENA1:missense_variant:None', 'SSS1:upstream_gene_variant:None', 'RLI1:missense_variant:None', 'DNF2:missense_variant:None', 'MSH6:missense_variant:None', 'PDS1:missense_variant:None', 'VBA4:missense_variant:None', 'MTC5:missense_variant:None', 'YCF1:missense_variant:None', 'SEC1:missense_variant:None', 'SEC7:missense_variant:None', 'SUP35:missense_variant:None', 'YDR182W-A:missense_variant:None', 'SLY1:synonymous_variant:None', 'RAV2:synonymous_variant:None', 'MSS4:missense_variant:None', 'MNN10:synonymous_variant:None', 'HSP78:stop_gained:None', 'AKR1:synonymous_variant:None', 'PEX3:missense_variant:None', 'RQC1:upstream_gene_variant:None', 'SWR1:missense_variant:None', 'PAL1:upstream_gene_variant:None', 'TRS120:missense_variant:None', 'RAD30:stop_gained:None', 'MRPL28:missense_variant:None', 'UGO1:synonymous_variant:None', 'PRP3:missense_variant:None', 'VPS3:synonymous_variant:None', 'HXT13:upstream_gene_variant:None', 'GDA1:synonymous_variant:None', 'FCY21:missense_variant:None', 'YER062C:missense_variant:None', 'MRX1:upstream_gene_variant:None', 'PMD1:upstream_gene_variant:None', 'tH(GUG)E2:upstream_gene_variant:None', 'YER158C:missense_variant:None', 'RAD4:splice_region_variant&stop_retained_variant:None', 'RPH1:missense_variant:None', 'RPH1:downstream_gene_variant:None', 'PDA1:missense_variant:None', 'YFL063W:missense_variant:None', 'YFL066C:upstream_gene_variant:None', 'STE2:synonymous_variant:None', 'RSC8:synonymous_variant:None', 'MNT2:upstream_gene_variant:None', 'ZIP2:synonymous_variant:None', 'KIP3:missense_variant:None', 'PMR1:upstream_gene_variant:None', 'CUP2:missense_variant:None', 'RRT6:missense_variant:None', 'MRM2:upstream_gene_variant:None', 'LIF1:missense_variant:None', 'KXD1:upstream_gene_variant:None', 'HSF1:synonymous_variant:None', 'AFT1:missense_variant:None', 'AFT1:missense_variant:None', 'AFT1:missense_variant:None', 'TIF4632:missense_variant:None', 'tV(AAC)G1:synonymous_variant:None', 'tF(GAA)G:upstream_gene_variant:None', 'SCM4:synonymous_variant:None', 'MUP1:missense_variant:None', 'PPT1:upstream_gene_variant:None', 'PPT1:upstream_gene_variant:None', 'YGR125W:missense_variant:None', 'tA(AGC)G:missense_variant:None', 'SUF4:downstream_gene_variant:None', 'ECL1:upstream_gene_variant:None', 'CHO2:missense_variant:None', 'TRS65:missense_variant:None', 'PHO81:synonymous_variant:None', 'ENO1:missense_variant:None', 'YGR269W:missense_variant:None', 'SLH1:missense_variant:None', 'RNH70:missense_variant:None', 'CWC22:missense_variant:None', 'YGR293C:upstream_gene_variant:None', 'YHL008C:upstream_gene_variant:None', 'MYO1:missense_variant:None', 'DOG2:upstream_gene_variant:None', 'INM1:upstream_gene_variant:None', 'INM1:upstream_gene_variant:None', 'LIN1:missense_variant:None', 'MPC2:synonymous_variant:None', 'ENO2:missense_variant:None', 'KOG1:synonymous_variant:None', 'UTP9:missense_variant:None', 'YIL169C:upstream_gene_variant:None', 'CCT2:missense_variant:None', 'RPL16A:upstream_gene_variant:None', 'FMC1:missense_variant:None', 'SDS3:missense_variant:None', 'THS1:missense_variant:None', 'YJL218W:missense_variant:None', 'YJL206C:missense_variant:None', 'CDC6:missense_variant:None', 'DAS1:missense_variant:None', 'IME2:missense_variant:None', 'MHP1:missense_variant:None', 'YJL027C:missense_variant:None', 'BBC1:missense_variant:None', 'BBC1:missense_variant:None', 'SPC1:upstream_gene_variant:None', 'JSN1:missense_variant:None', 'VPS70:missense_variant:None', 'RPS4A:upstream_gene_variant:None', 'YJR154W:upstream_gene_variant:None', 'SRY1:upstream_gene_variant:None', 'STE6:upstream_gene_variant:None', 'PEX1:missense_variant:None', 'PXA2:missense_variant:None', 'YKL162C-A:upstream_gene_variant:None', 'DGR2:upstream_gene_variant:None', 'SRP21:upstream_gene_variant:None', 'tH(GUG)K:upstream_gene_variant:None', 'YKL050C:missense_variant:None', 'HCS1:synonymous_variant:None', 'UFD4:upstream_gene_variant:None', 'YKR015C:synonymous_variant:None', 'GMH1:missense_variant:None', 'YKR045C:upstream_gene_variant:None', 'YKR078W:synonymous_variant:None', 'NUP133:synonymous_variant:None', 'OMA1:missense_variant:None', 'UBP11:upstream_gene_variant:None', 'SPA2:missense_variant:None', 'PSR1:upstream_gene_variant:None', 'SMC4:missense_variant:None', 'CSF1:stop_gained:None', 'ALT1:missense_variant:None', 'DIP2:missense_variant:None', 'MMR1:upstream_gene_variant:None', 'MMR1:upstream_gene_variant:None', 'HAP1:missense_variant:None', 'HAP1:missense_variant:None', 'SEC72:upstream_gene_variant:None', 'NKP2:missense_variant:None', 'STE23:missense_variant:None', 'VPS36:missense_variant:None', 'YLR419W:synonymous_variant:None', 'YLR419W:missense_variant:None', 'URA4:synonymous_variant:None', 'YLR446W:missense_variant:None', 'TCB3:upstream_gene_variant:None', 'ERG6:missense_variant:None', 'FAR8:missense_variant:None', 'RCO1:missense_variant:None', 'CTF18:missense_variant:None', 'VBA1:synonymous_variant:None', 'PSO2:stop_gained:None', 'TIF34:missense_variant:None', 'YMR155W:synonymous_variant:None', 'RRP5:upstream_gene_variant:None', 'YMR244W:missense_variant:None', 'SCS7:upstream_gene_variant:None', 'HSH155:missense_variant:None', 'PSE1:stop_gained:None', 'ZWF1:upstream_gene_variant:None', 'BNI4:missense_variant:None', 'RAP1:stop_gained:None', 'UBP10:missense_variant:None', 'EAF7:stop_gained:None', 'YNL115C:missense_variant:None', 'NST1:missense_variant:None', 'EOS1:synonymous_variant:None', 'RPL16B:upstream_gene_variant:None', 'POR1:missense_variant:None', 'RCM1:missense_variant:None', 'ABZ1:missense_variant:None', 'DSE4:missense_variant:None', 'DSE4:missense_variant:None', 'DSE4:upstream_gene_variant:None', 'RRI2:synonymous_variant:None', 'YOL013W-B:missense_variant:None', 'HRD1:upstream_gene_variant:None', 'PFA4:upstream_gene_variant:None', 'YOR019W:synonymous_variant:None', 'WHI2:missense_variant:None', 'ALG8:missense_variant:None', 'NRT1:missense_variant:None', 'RPT5:missense_variant:None', 'AFI1:missense_variant:None', 'ADE2:upstream_gene_variant:None', 'LSC1:missense_variant:None', 'PNS1:missense_variant:None', 'DCS2:missense_variant:None', 'DCI1:upstream_gene_variant:None', 'MCA1:missense_variant:None', 'PAC1:missense_variant:None', 'YOR292C:upstream_gene_variant:None', 'RAX1:missense_variant:None', 'FAA1:missense_variant:None', 'KRE5:synonymous_variant:None', 'CIN1:synonymous_variant:None', 'MSC6:missense_variant:None', 'YPL277C:upstream_gene_variant:None', 'FUM1:synonymous_variant:None', 'THI21:missense_variant:None', 'IQG1:missense_variant:None', 'SAR1:missense_variant:None', 'THI6:synonymous_variant:None', 'HRR25:missense_variant:None', 'CTI6:missense_variant:None', 'NOP53:missense_variant:None', 'GDE1:missense_variant:None', 'YPL099C:upstream_gene_variant:None', 'ELP3:synonymous_variant:None', 'MOT1:synonymous_variant:None', 'IRC15:missense_variant:None', 'CMR3:missense_variant:None', 'VMA13:missense_variant:None', 'SPO24:upstream_gene_variant:None', 'TIP41:missense_variant:None', 'BRR1:missense_variant:None', 'MED1:synonymous_variant:None', 'RPN7:missense_variant:None', 'RRP9:missense_variant:None', 'PIN3:missense_variant:None', 'TPO3:upstream_gene_variant:None', 'YPR158C-D:upstream_gene_variant:None', 'BSP1:synonymous_variant:None', 'HDA3:stop_gained:None']"
+WGS-March23-143-03-54,AAGGCAAGAGAAAATTGATTTGGCGA,SEvo_GalF,Glu/Gal,['RDS1:stop_gained:HET']
+WGS-March23-143-03-55,TATGGAAAACCAAAGTATATTGATAC,SEvo_N,NaCl,[]
+WGS-March23-143-03-56,ACGTAAACGTTGAAGTTCGTTTTGGT,SEvo_N,NaCl,[]
+WGS-March23-143-03-57,TAGGTAATTTTGAAGCTCTTTAAATT,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-58,TAAAAAATCCAAAAGTTTCTTGATGA,Circ_HF2,Glu/H2O2,"['HOS4:missense_variant:HET', 'YIL067C:missense_variant:HET', 'CDC25:synonymous_variant:HET', 'MVD1:missense_variant:HET', 'NAB3:upstream_gene_variant:HET']"
+WGS-March23-143-03-59,TGAACAACGGAGAATGCATTTCGTTT,SEvo_G,Glu,"['SKN7:upstream_gene_variant:HET', 'BNR1:missense_variant:HET', 'PHO84:missense_variant:HET', 'KAR5:missense_variant:HET', 'MGR3:missense_variant:HET']"
+WGS-March23-143-03-60,TGCTAAAATTTTAAGTTTTTTAAGGC,SEvo_G,Glu,[]
+WGS-March23-143-03-61,TAATAAAACGCGAAAGTAGTTTCATA,SEvo_GalF,Glu/Gal,"['TUS1:upstream_gene_variant:HET', 'PPA2:synonymous_variant:HET', 'COG6:missense_variant:HET']"
+WGS-March23-143-03-62,ATGATAAAGGGAAAAGAAATTGAAAA,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-63,CGCAGAAGGGCCAACGATTTTTTGTG,SEvo_N,NaCl,[]
+WGS-March23-143-03-64,CACTTAAATGTCAAAGGTTTTTAATT,SEvo_N,NaCl,[]
+WGS-March23-143-03-65,TTCAAAAGACTTAAAAGCATTTTGGA,Circ_HF2,Glu/H2O2,"['YLR407W:missense_variant:HET', 'PHM7:synonymous_variant:HET', 'SYT1:frameshift_variant:HET']"
+WGS-March23-143-03-66,TTAATAAACAATAAAACACTTGGTAT,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-67,TGTTAAAAAGTCAACCATCTTTAGGA,SEvo_G,Glu,"['tV(CAC)D:upstream_gene_variant:HET', 'BRP1:synonymous_variant:HET', 'ZAP1:missense_variant:HET', 'ZRT3:missense_variant:HET']"
+WGS-March23-143-03-68,CAATCAACCTAAAAACGTTTTGAGCA,SEvo_G,Glu,[]
+WGS-March23-143-03-69,CATTCAAGATAAAATGGCCTTCTACG,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-70,TCTCGAAAGTGGAAGAGAATTCGTTA,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-71,GCTCTAATCAAAAAATCGATTAGCTT,SEvo_N,NaCl,[]
+WGS-March23-143-03-72,CTGATAACGGGCAACGGGTTTCTAAC,Circ_HN1,H2O2/NaCl,['RNP1:stop_gained:HET']
+WGS-March23-143-03-73,TGCCAAATAGTGAACCTGGTTCCCGG,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-74,GATCGAACTCCAAAAACAATTTAATA,Circ_HF2,Glu/H2O2,"['PHO87:missense_variant:HET', 'HSF1:synonymous_variant:HET', 'AFT1:missense_variant:HET', 'KOG1:synonymous_variant:HET', 'YJL027C:missense_variant:HET', 'UFD4:upstream_gene_variant:HET', 'RAP1:stop_gained:HET', 'NOP53:missense_variant:HET']"
+WGS-March23-143-03-75,TGTAAAAGAAGCAACCTGATTTCCTT,SEvo_G,Glu,[]
+WGS-March23-143-03-76,GAGTAAAACCCGAAAGAGATTTTTTT,SEvo_G,Glu,"['PCA1:synonymous_variant:HET', 'YDR210W-A:downstream_gene_variant:HET', 'YDR210W-A:downstream_gene_variant:HET']"
+WGS-March23-143-03-77,GTCCTAATCCAAAATGCATTTTCGC,SEvo_GalF,Glu/Gal,"['LAM1:missense_variant:HET', 'YEF3:missense_variant:HET']"
+WGS-March23-143-03-78,AACATAATCGTTAATTTTTTTACAAT,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-79,TCAGAAATTGCCAAAACACTTTTCTC,SEvo_N,NaCl,[]
+WGS-March23-143-03-80,ATACTAAAGTTAAAAGGTTTTCTGTT,Circ_HN1,H2O2/NaCl,"['RPN9:missense_variant:HET', 'PAC2:missense_variant:HET', 'VTC1:upstream_gene_variant:HET', 'TIF4632:upstream_gene_variant:HET', 'PDR11:missense_variant:HET', 'IMH1:missense_variant:HET', 'ERV25:missense_variant:HET', 'FMS1:missense_variant:HET', 'YMR153C-A:upstream_gene_variant:HET', 'YNL042W-B:missense_variant:HET']"
+WGS-March23-143-03-81,TCTGTAATATCTAAACAACTTCTGTT,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-82,TGGCCAACAGTTAAAACGGTTGTTCA,Circ_HF2,Glu/H2O2,"['AFT1:missense_variant:HOM', 'INP53:synonymous_variant:HET']"
+WGS-March23-143-03-83,TGGTGAAATTCAAAGGTTATTTTTTG,SEvo_G,Glu,[]
+WGS-March23-143-03-84,AACCAAAAATTTAACTAACTTAACCG,SEvo_G,Glu,"['SPT16:synonymous_variant:HET', 'HEL1:upstream_gene_variant:HET', 'YMR321C:upstream_gene_variant:HET', 'SUA7:missense_variant:HET']"
+WGS-March23-143-03-85,CATATAAACTGTAAACTTATTTCCGG,SEvo_GalF,Glu/Gal,['CHZ1:missense_variant:HET']
+WGS-March23-143-03-86,ACCGGAAGAGGCAAACTGGTTTGGTG,SEvo_GalF,Glu/Gal,['YSP2:missense_variant:HET']
+WGS-March23-143-03-87,CACACAAGTAGCAAAAAATTTTACG,SEvo_N,NaCl,[]
+WGS-March23-143-03-88,GGACAAATAAAAAAATACATTGACTA,Circ_HN1,H2O2/NaCl,['SRP21:upstream_gene_variant:HET']
+WGS-March23-143-03-89,TGAATAAAAAGTAAGCATTTTAGTAA,Circ_HF2,Glu/H2O2,[]
+WGS-March23-143-03-90,CGGTCAACACAGAAGTTGATTAGTTG,Circ_HF2,Glu/H2O2,['SNO2:upstream_gene_variant:HET']
+WGS-March23-143-03-91,GCCACAAGCAAGAAGAGTGTTTACCC,SEvo_G,Glu,"['SUL1:synonymous_variant:HET', 'SUL1:missense_variant:HET', 'TAF12:missense_variant:HET', 'RPO41:synonymous_variant:HET', 'HCR1:upstream_gene_variant:HET']"
+WGS-March23-143-03-92,ATTGAAACGATTAAAAGGTTTGTTTG,SEvo_GalF,Glu/Gal,[]
+WGS-March23-143-03-93,GGGTTAACGGTAAAATGGTTTATGTT,SEvo_GalF,Glu/Gal,['YIR014W:missense_variant:HET']
+WGS-March23-143-03-94,CATAAAACTCGGAAAGACATTGGGAG,SEvo_GalF,Glu/Gal,"['YBR184W:missense_variant:HET', 'RLI1:missense_variant:HET', 'CWC22:missense_variant:HET', 'FUM1:synonymous_variant:HET']"
+WGS-March23-143-03-95,CTGTCAAACTTTAATATCTTTTTTTG,SEvo_N,NaCl,[]
+WGS-March23-143-03-96,TTTAAAAGAAGAAAGTTATTTGCATA,Circ_HN1,H2O2/NaCl,"['FUR4:missense_variant:HET', 'SEC7:missense_variant:HET', 'MPC2:synonymous_variant:HET', 'EOS1:synonymous_variant:HET']"
+WGS-March23-143-04-01,AACAAAAAAGTTAACTTTATTCGTAA,Circ_HN1,H2O2/NaCl,"['ORC2:missense_variant:HET', 'TRM1:missense_variant:HET', 'MTO1:missense_variant:HET', 'HCA4:missense_variant:HET', 'SFC1:synonymous_variant:HET', 'HIR2:missense_variant:HET']"
+WGS-March23-143-04-02,ACGCTAATCAGGAACAGTGTTTTTTC,Circ_HN1,H2O2/NaCl,"['HBN1:upstream_gene_variant:HET', 'YET3:upstream_gene_variant:HET', 'PRO1:missense_variant:HET', 'YGL214W:synonymous_variant:HET', 'APQ12:stop_gained:HET', 'ACO2:missense_variant:HET', 'HAT1:synonymous_variant:HET', 'CLB2:synonymous_variant:HET']"
+WGS-March23-143-04-03,ATACTAATCGGGAAAAGTTTTAGGTA,Circ_HN2,H2O2/NaCl,"['YBL113W-A:upstream_gene_variant:HET', 'TEL1:missense_variant:HET', 'THI2:missense_variant:HET', 'NOP9:missense_variant:HET', 'SAG1:missense_variant:HET', 'HOC1:missense_variant:HET', 'THI72:upstream_gene_variant:HET']"
+WGS-March23-143-04-04,TAAATAAAAGAAAAAGCGCTTTGTAT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-05,GCGACAATCTAAAACTTGTTTGGCAA,SEvo_Gal,Gal,[]
+WGS-March23-143-04-06,AACCAAAGTTGAAATAGAATTGGTTT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-07,AAGACAAAAAAGAAGCGGCTTTCGTT,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-08,TATGTAACTTGGAATACGTTTCATTG,Circ_NF,Glu/NaCl,['RPC82:upstream_gene_variant:HET']
+WGS-March23-143-04-09,CTATTAACTGATAACTTTATTGAACC,Circ_HN1,H2O2/NaCl,"['LTE1:upstream_gene_variant:HET', 'GIT1:synonymous_variant:HET', 'MIL1:missense_variant:HET', 'SSM4:missense_variant:HET', 'PDR11:missense_variant:HET', 'CCT3:missense_variant:HET', 'TPS3:missense_variant:HET', 'RPS6A:upstream_gene_variant:HET']"
+WGS-March23-143-04-10,TGATAAACGATTAAACGAGTTGAT,Circ_HN1,H2O2/NaCl,"['DRS2:missense_variant:HET', 'CHA1:missense_variant:HET', 'ZIP2:synonymous_variant:HET', 'tA(AGC)G:missense_variant:HET', 'PHO81:synonymous_variant:HET', 'VPS36:missense_variant:HET', 'CMR3:missense_variant:HET', 'RRP9:missense_variant:HET']"
+WGS-March23-143-04-11,GAACTAATATTAAATGATTTTCATAA,Circ_HN2,H2O2/NaCl,[]
+WGS-March23-143-04-12,ATACCAATAGTAAATAGGGTTAGAGA,SEvo_Gal,Gal,[]
+WGS-March23-143-04-13,TTCGTAAATCACAAATGTATTATGAG,SEvo_Gal,Gal,[]
+WGS-March23-143-04-14,ACTGTAAAATAGAAGGACTTTTTCAT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-15,GATCTAAGTTATAACTAGGTTATTAC,Circ_NF,Glu/NaCl,['AFI1:missense_variant:HET']
+WGS-March23-143-04-16,ACGCTAACGAACAACATGTTTATGTT,Circ_NF,Glu/NaCl,"['RIF1:missense_variant:HET', 'WBP1:upstream_gene_variant:HET', 'TRA1:missense_variant:HET']"
+WGS-March23-143-04-17,CGGACAACTTATAATTTCGTTGTCTG,Circ_HN1,H2O2/NaCl,"['IST2:upstream_gene_variant:HET', 'CCT2:missense_variant:HET']"
+WGS-March23-143-04-18,GATAGAATTCTTAAAATCCTTATTGT,Circ_HN1,H2O2/NaCl,"['DRS2:missense_variant:HET', 'TRS65:missense_variant:HET', 'VPS36:missense_variant:HET']"
+WGS-March23-143-04-19,TGGCTAAATTAAAACCGTGTTTCACA,Circ_HN2,H2O2/NaCl,"['SFA1:missense_variant:HET', 'PEX1:missense_variant:HET', 'YLR446W:missense_variant:HET', 'HSH155:missense_variant:HET']"
+WGS-March23-143-04-20,ACCGCAAGAGACAACATGCTTCGCCA,SEvo_Gal,Gal,"['SHU2:upstream_gene_variant:HET', 'HEL2:upstream_gene_variant:HET', 'MYO1:missense_variant:HET', 'ACC1:missense_variant:HET']"
+WGS-March23-143-04-21,CAAACAAAGCCCAATGATTTTCGTCA,SEvo_Gal,Gal,"['AFT1:missense_variant:HET', 'YRF1-6:upstream_gene_variant:HET', 'YRF1-6:upstream_gene_variant:HET', 'SFB2:missense_variant:HET']"
+WGS-March23-143-04-22,ATTCAAACGAATAAAATAATTAATAA,SEvo_Gal,Gal,[]
+WGS-March23-143-04-23,ACAACAAAGTTTAAATGCGTTGCATA,Circ_NF,Glu/NaCl,"['SLY1:synonymous_variant:HET', 'SRY1:upstream_gene_variant:HET', 'YLR419W:missense_variant:HET', 'BNI4:missense_variant:HET']"
+WGS-March23-143-04-24,TTACAAAATTGGAACTCGCTTGACAA,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-25,AAGTTAACCCGGAAACAGGTTAATGA,Circ_HN1,H2O2/NaCl,"['EAR1:upstream_gene_variant:HET', 'MSE1:synonymous_variant:HET', 'SNR35:upstream_gene_variant:HET']"
+WGS-March23-143-04-26,ATCATAATCGCAAACTGTGTTCTTAG,Circ_HN1,H2O2/NaCl,[]
+WGS-March23-143-04-27,CATCCAAACATAAACTGGCTTCAATA,Circ_HN2,H2O2/NaCl,[]
+WGS-March23-143-04-28,ACGACAAATCTAAAGGGCATTAGGCC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-29,CACTCAATATGTAAGACAATTGCGGA,SEvo_Gal,Gal,[]
+WGS-March23-143-04-30,ATTATAACGCTGAACGGACTTGCCAC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-31,ACTCTAAATCTAAAGTTTGTTTGGGC,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-32,TGATTAATTTCAAAACTAATTAATAT,Circ_NF,Glu/NaCl,['MEK1:missense_variant:HET']
+WGS-March23-143-04-33,GTAGTAAGAGGGAAGGGGCTTGTGGG,Circ_HN1,H2O2/NaCl,"['MTC4:missense_variant:HET', 'CIT2:upstream_gene_variant:HET', 'RQC1:missense_variant:HET', 'RQC1:missense_variant:HET', 'GLO3:missense_variant:HET', 'UBR2:missense_variant:HET', 'NAM7:missense_variant:HET', 'YNL184C:upstream_gene_variant:HET', 'SIN3:missense_variant:HET']"
+WGS-March23-143-04-34,TGTCGAACAGGGAAAATTTTTAGGGC,Circ_HN1,H2O2/NaCl,"['PBR1:frameshift_variant:HET', 'KAR3:upstream_gene_variant:HET']"
+WGS-March23-143-04-35,TAGAGAATAAATAATAAAGTTTCGAC,Circ_HN2,H2O2/NaCl,"['YHL050C:upstream_gene_variant:HET', 'FKS3:missense_variant:HET']"
+WGS-March23-143-04-36,CTTGAAATACACAATGCCTTTTCAGA,SEvo_Gal,Gal,"['CYC3:disruptive_inframe_deletion:HET', 'YCL023C:upstream_gene_variant:HET', 'HXT13:upstream_gene_variant:HET', 'PXA2:missense_variant:HET', 'ECM9:upstream_gene_variant:HET', 'SPA2:missense_variant:HET', 'DIP2:missense_variant:HET', 'YPL099C:upstream_gene_variant:HET']"
+WGS-March23-143-04-37,GTTCAAATTGAAAAGTTGCTTTCTGC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-38,GTCTAAAAAGGAAACAACTTTTTTTT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-39,AGCCAAATAAATAACCATATTCTGTT,Circ_NF,Glu/NaCl,"['SUF4:downstream_gene_variant:HET', 'UTP9:missense_variant:HET', 'SDS3:missense_variant:HET']"
+WGS-March23-143-04-40,CGACAAATACCTAAGTGATTTTAGGT,Circ_NF,Glu/NaCl,"['SET4:missense_variant:HET', 'RRP5:missense_variant:HET']"
+WGS-March23-143-04-41,ATTGTAAACAGCAATCATCTTCGGTC,Circ_HN1,H2O2/NaCl,"['CHK1:missense_variant:HET', 'MAL33:upstream_gene_variant:HET', 'RRI1:upstream_gene_variant:HET', 'YER137C:frameshift_variant:HET', 'MPT5:upstream_gene_variant:HET', 'YOP1:upstream_gene_variant:HET']"
+WGS-March23-143-04-42,CCCTCAATAAAGAACGCTATTACTGT,Circ_HN2,H2O2/NaCl,"['SRB6:synonymous_variant:HET', 'SIP4:missense_variant:HET', 'YKL031W:upstream_gene_variant:HET', 'ECM22:upstream_gene_variant:HET']"
+WGS-March23-143-04-43,TCGCCAATACTGAAGTTCATTTGTTG,Circ_HN2,H2O2/NaCl,['CBP2:missense_variant:HET']
+WGS-March23-143-04-44,GTCTCAAGTAGTAAACCATTTAAGAT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-45,ACTCTAAAATTAAAGACATTTAAATC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-46,TTAATAAGGGCAAAAATGATTCTAGC,SEvo_Gal,Gal,"['TOD6:synonymous_variant:HET', 'YDR182W-A:missense_variant:HET', 'SMC4:missense_variant:HET']"
+WGS-March23-143-04-47,ACAACAACAATGAAGATCATTTTCTG,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-48,CTACGAAAAAGCAACGACATTTAAGG,Circ_NF,Glu/NaCl,"['CPA2:upstream_gene_variant:HET', 'ISW2:missense_variant:HET']"
+WGS-March23-143-04-49,AGGGCAATGGACAAAGTTATTGGTGT,Circ_HN1,H2O2/NaCl,['SUL2:missense_variant:HET']
+WGS-March23-143-04-50,ACCTAAACTTCTAAGCTCATTACGCT,Circ_HN2,H2O2/NaCl,"['MRPL35:synonymous_variant:HET', 'YIL166C:synonymous_variant:HET', 'KDX1:upstream_gene_variant:HET', 'YKR023W:missense_variant:HET', 'YCS4:missense_variant:HET', 'YCS4:missense_variant:HET']"
+WGS-March23-143-04-51,TTGTCAATTCACAAATAACTTGACGT,Circ_HN2,H2O2/NaCl,[]
+WGS-March23-143-04-52,ATCCCATTTAAAATAGACTTTTACA,SEvo_Gal,Gal,[]
+WGS-March23-143-04-53,ACCACAAGCTCTAAACTGTTTCAGGC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-54,CATATAAGGTCGAAAGCAGTTAATGT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-55,ACGTTAATTTTAAATTGAATTGCGAA,Circ_NF,Glu/NaCl,"['CDC5:synonymous_variant:HET', 'IOC4:missense_variant:HET']"
+WGS-March23-143-04-56,CTCGTAATACAGAAGTGTTTTCAGCG,Circ_NF,Glu/NaCl,"['YAL069W:missense_variant:HET', 'NCL1:missense_variant:HET']"
+WGS-March23-143-04-57,ACTCAAAAAAGCAAAAGCGTTCGAAT,Circ_HN1,H2O2/NaCl,[]
+WGS-March23-143-04-58,TGCAAAATATATAACGTTTTTTATAA,Circ_HN2,H2O2/NaCl,"['DDI1:missense_variant:HET', 'LOT6:synonymous_variant:HET', 'PDR10:missense_variant:HET']"
+WGS-March23-143-04-59,AAGGCAACAATCAAGAGGGTTCGGAC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-60,CGTTCAACCGCAAAAGGCGTTGAATT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-61,AGGGGAAGGGATAATATCTTTACTCT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-62,CGTTCAAAATGCAACCTAATTAACAG,SEvo_Gal,Gal,[]
+WGS-March23-143-04-63,CATACAATATCGAATTCGATTGGGTT,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-64,TCATTAAATCTCAAGGACGTTAGTCT,Circ_NF,Glu/NaCl,"['tR(UCU)G2:stop_lost:HET', 'CDA1:missense_variant:HET']"
+WGS-March23-143-04-65,AAACCAATCCGTAACCAGTTTTTCGA,Circ_HN1,H2O2/NaCl,"['DNF2:missense_variant:HET', 'VPS74:upstream_gene_variant:HET', 'SAP1:upstream_gene_variant:HET', 'SOP4:upstream_gene_variant:HET', 'YOL166W-A:missense_variant:HET']"
+WGS-March23-143-04-66,CTTCAAAACTTCAAACGGCTTTAAAG,Circ_HN2,H2O2/NaCl,"['YBR074W:missense_variant:HET', 'RRG1:missense_variant:HET', 'SAC3:missense_variant:HET', 'SSA4:synonymous_variant:HET', 'LYS12:synonymous_variant:HET', 'GEX2:downstream_gene_variant:HET', 'YLR358C:upstream_gene_variant:HET', 'CAT5:stop_gained:HET']"
+WGS-March23-143-04-67,TTGGGAAGATGTAAGTCTCTTGTTTA,SEvo_Gal,Gal,['FAS2:missense_variant:HET']
+WGS-March23-143-04-68,GATCTAATTCTCAAGTCCATTACTGG,SEvo_Gal,Gal,['CDC9:upstream_gene_variant:None']
+WGS-March23-143-04-69,ACTGGAAATTTAAAGAGATTTTCGGT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-70,AATAGAAACAGGAAGTGATTTTGTAC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-71,GTAACAATCGGTAAGACTTTTCTCGC,Circ_NF,Glu/NaCl,"['DPB4:upstream_gene_variant:HET', 'KES1:upstream_gene_variant:HET']"
+WGS-March23-143-04-72,GAAATAAGATGAAATCAAGTTGACGC,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-73,GGTCCAAATTTAAATCGCCTTTAAGG,Circ_HN1,H2O2/NaCl,['AIR2:upstream_gene_variant:HET']
+WGS-March23-143-04-74,GATTGAAGAAGTAAATTATTTCACTA,Circ_N,NaCl,"['SPS2:upstream_gene_variant:HET', 'PDR11:missense_variant:HET', 'RRP5:frameshift_variant:HET', 'YPR097W:missense_variant:HET']"
+WGS-March23-143-04-75,TACCCAAAACTAAAATTGCTTTATAA,SEvo_Gal,Gal,[]
+WGS-March23-143-04-76,ACTTTAATTTGGAATTCTGTTTGATG,SEvo_Gal,Gal,[]
+WGS-March23-143-04-77,TCGCCAAACCTGAAAATGATTGTCCC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-78,ACTTGAAACTATAAAGCCCTTTGTGA,SEvo_Gal,Gal,"['MDJ1:missense_variant:HET', 'NUP192:synonymous_variant:HET', 'NDC1:missense_variant:HET']"
+WGS-March23-143-04-79,CGTCTAATGAATAATCATGTTGGTTC,Circ_NF,Glu/NaCl,['VPS61:missense_variant:HET']
+WGS-March23-143-04-80,GGGGGAAGTGGCAATGGGTTTGGATT,Circ_N,NaCl,[]
+WGS-March23-143-04-81,GAGCAAATTGATAAGGTGGTTGCTAG,Circ_HN1,H2O2/NaCl,[]
+WGS-March23-143-04-82,GTTACAAGTGGGAAGGGTATTGAGTT,Circ_HN2,H2O2/NaCl,[]
+WGS-March23-143-04-83,ATAAGAAAGTGAAACGCCTTTGGACG,SEvo_Gal,Gal,[]
+WGS-March23-143-04-84,GATTCAACCTTGAATGTATTTTAGCT,SEvo_Gal,Gal,['YPR196W:missense_variant:HET']
+WGS-March23-143-04-85,CATCCAACATGGAATTGGGTTAAGAA,SEvo_Gal,Gal,[]
+WGS-March23-143-04-86,TGTATAACTGCGAAAAGTCTTTATAT,Circ_NF,Glu/NaCl,"['CYC8:upstream_gene_variant:HET', 'IOC2:upstream_gene_variant:HET']"
+WGS-March23-143-04-87,TGTTAAATGTGAAATATAGTTACCGT,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-88,CCGCGAATACCGAACATGTTTGCTTG,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-89,AGCGGAATTTAGAATGAATTTGAGAG,Circ_HN1,H2O2/NaCl,[]
+WGS-March23-143-04-90,CGGCAAAACAGGAAACGGTTTGGTGT,Circ_HN2,H2O2/NaCl,"['EDE1:missense_variant:HET', 'NGR1:missense_variant:HET', 'PMI40:synonymous_variant:HET', 'UTP10:missense_variant:HET', 'MDN1:missense_variant:HET', 'IMP4:upstream_gene_variant:HET', 'BSC5:synonymous_variant:HET']"
+WGS-March23-143-04-91,ATACAAATATGTAAAAGTCTTTATTT,SEvo_Gal,Gal,[]
+WGS-March23-143-04-92,GCGTTAATATAAAATATGTTTATTTC,SEvo_Gal,Gal,[]
+WGS-March23-143-04-93,TTCTTAAAAGTGAACGGGGTTGGGGG,SEvo_Gal,Gal,[]
+WGS-March23-143-04-94,CTAATAATGATTAAGCGTTATTCT,Circ_NF,Glu/NaCl,[]
+WGS-March23-143-04-95,CGTAAAAGAAGCAATTTGCTTACCGG,Circ_NF,Glu/NaCl,"['CSF1:stop_gained:HET', 'KRE5:synonymous_variant:HET']"
+WGS-March23-143-04-96,GGATGAAACCGAAATAACGTTGGTTT,Circ_NF,Glu/NaCl,"['YAL069W:missense_variant:HET', 'NCL1:missense_variant:HET']"
+WGS-March23-143-05-01,AGTTTAACTGTAAAAAGGATTTTTGTGG,Circ_NF,Glu/NaCl,"['POL4:upstream_gene_variant:HET', 'NHA1:missense_variant:HET']"
+WGS-March23-143-05-02,GACGCAACCTCGAATTAAGTTATCGA,Circ_B2,Bob,"['AFR1:upstream_gene_variant:HET', 'YHR202W:missense_variant:HET', 'UTP25:upstream_gene_variant:HET', 'CAF120:synonymous_variant:HET']"
+WGS-March23-143-05-03,TCTCGAACGAGTAACGCGATTAATAT,Circ_A1,Alice,['GCN2:upstream_gene_variant:HET']
+WGS-March23-143-05-04,TCCTAAATCTTTAAATGTCTTAGGCT,Circ_B1,Bob,"['YBL109W:synonymous_variant:HET', 'YPD1:upstream_gene_variant:HET', 'YDR537C:upstream_gene_variant:HET', 'PRP22:missense_variant:HET', 'YMR31:frameshift_variant:HET', 'YMR31:missense_variant:HET', 'CLD1:upstream_gene_variant:HET', 'TAO3:missense_variant:HET', 'LCB3:missense_variant:HET', 'MSH2:missense_variant:HET']"
+WGS-March23-143-05-05,GCTCGAAAAGGTAATGATATTTTGGC,Circ_B1,Bob,['ARC35:missense_variant:HET']
+WGS-March23-143-05-06,TAACGAAGGGCAAAGATAATTATTTG,Circ_B1,Bob,"['YDR391C:missense_variant:HET', 'PEX14:missense_variant:HET', 'tG(GCC)G2:missense_variant:HET', 'SKG6:upstream_gene_variant:HET', 'ECM22:upstream_gene_variant:HET', 'VAC7:missense_variant:HET', 'PDE2:synonymous_variant:HET', 'AGC1:upstream_gene_variant:HET']"
+WGS-March23-143-05-07,GATGTAACAGTTAAGTAGGTTAGAAT,Circ_G,Glu,"['RER2:missense_variant:HET', 'SSK22:missense_variant:HET', 'CTA1:missense_variant:HET', 'TAX4:missense_variant:HET', 'STE23:frameshift_variant:HET', 'GAB1:missense_variant:HET', 'ATM1:missense_variant:HET', 'RRG9:upstream_gene_variant:HET']"
+WGS-March23-143-05-08,TGTCAAATATTAAAGTACTTTTAGCG,SEvo_GN,Glu/NaCl,['RPA190:missense_variant:HET']
+WGS-March23-143-05-09,AATTTAAACGACAATCCGATTATTAG,Circ_HF1,Glu/H2O2,"['RNR4:missense_variant:HET', 'YUR1:upstream_gene_variant:HET']"
+WGS-March23-143-05-10,ATATAAATCGTCAAGAACTTTCTCCA,Circ_B2,Bob,"['TFC3:upstream_gene_variant:HET', 'YCR043C:upstream_gene_variant:HET', 'YDL206W:missense_variant:HET', 'KCS1:upstream_gene_variant:HET', 'HXT3:upstream_gene_variant:HET', 'RIM15:missense_variant:HET', 'EST3:upstream_gene_variant:HET', 'YJR098C:upstream_gene_variant:HET']"
+WGS-March23-143-05-11,CAGCAAACATGCAAGCTATTTCGTAC,Circ_A1,Alice,"['MDM10:missense_variant:HET', 'RGT2:stop_gained:HET', 'TFB5:missense_variant:HET', 'TAM41:missense_variant:HET', 'TPO5:missense_variant:HET', 'NCS2:missense_variant:HET', 'YAP7:stop_gained:HET', 'ACM1:frameshift_variant:HET']"
+WGS-March23-143-05-12,AGATAAAGCCGGAATTGAATTACCAA,Circ_B1,Bob,"['YBR071W:missense_variant:HET', 'SNT1:missense_variant:HET', 'UGO1:synonymous_variant:HET', 'IME2:missense_variant:HET', 'CTF18:missense_variant:HET', 'DSE4:missense_variant:HET', 'MCA1:missense_variant:HET', 'SAR1:missense_variant:HET']"
+WGS-March23-143-05-13,CTTGAAAACGTTAAGTGCATTTGGCT,Circ_B1,Bob,"['SNT1:missense_variant:HET', 'YDR278C:missense_variant:HET', 'YDR415C:upstream_gene_variant:HET', 'ASG1:stop_gained:HET', 'HIR3:synonymous_variant:HET', 'UBX2:missense_variant:HET', 'NOP2:missense_variant:HET', 'RRP40:missense_variant:HET', 'YRM1:synonymous_variant:HET']"
+WGS-March23-143-05-14,CGTGAAACTAACAACATTGTTCGCCG,Circ_B1,Bob,"['SAF1:upstream_gene_variant:HET', 'GYP8:missense_variant:HET', 'MSD1:missense_variant:HET']"
+WGS-March23-143-05-15,GTATGAACGTCTAATGGGTTTGGGTA,Circ_G,Glu,"['CMK2:upstream_gene_variant:HET', 'CMK2:upstream_gene_variant:HET']"
+WGS-March23-143-05-16,TTGATAACAGCGAAGGACTTTTACAT,SEvo_GN,Glu/NaCl,"['CDC27:upstream_gene_variant:HET', 'SSS1:upstream_gene_variant:HET', 'RPH1:downstream_gene_variant:HET']"
+WGS-March23-143-05-17,ACTCGAATATCTAATATGATTTTTTG,Circ_B2,Bob,"['ENA1:missense_variant:HET', 'ENA1:synonymous_variant:HET', 'ENA1:synonymous_variant:HET', 'ENA1:missense_variant:HET', 'ENA1:missense_variant:HET', 'ENA1:synonymous_variant:HET', 'ENA1:missense_variant:HET', 'RQC1:upstream_gene_variant:HET', 'RAD30:stop_gained:HET', 'YFL063W:missense_variant:HET', 'THS1:missense_variant:HET', 'SCS7:upstream_gene_variant:HET', 'ZWF1:upstream_gene_variant:HET', 'YNL115C:missense_variant:HET']"
+WGS-March23-143-05-18,GGATCAATGGGGAATAGGCTTGGCAC,Circ_B2,Bob,['PDS1:missense_variant:HET']
+WGS-March23-143-05-19,GTTATAACAAAAAATCTATTTAGGCT,Circ_A1,Alice,"['TEL1:missense_variant:HET', 'YKR045C:upstream_gene_variant:HET', 'RPL16B:upstream_gene_variant:HET', 'PFA4:upstream_gene_variant:HET']"
+WGS-March23-143-05-20,GGTAAAAGTTTCAAATCTGTTCTGGG,Circ_B1,Bob,"['YBR300C:upstream_gene_variant:HET', 'CDC50:upstream_gene_variant:HET', 'YOL029C:missense_variant:HET']"
+WGS-March23-143-05-21,GCACCAATCCTCAAATGACTTCTGCT,Circ_B1,Bob,"['INO80:upstream_gene_variant:HET', 'INO80:upstream_gene_variant:HET', 'NEL1:missense_variant:HET', 'SQT1:missense_variant:HET', 'YJR124C:upstream_gene_variant:HET', 'CDC25:missense_variant:HET', 'SIN4:missense_variant:HET', 'BSC6:missense_variant:HET']"
+WGS-March23-143-05-22,CTACCAAATAACAAGGGTATTCGATG,Circ_B1,Bob,"['FAA2:stop_gained:HET', 'UTP10:missense_variant:HET', 'MAE1:synonymous_variant:HET', 'HAP1:missense_variant:HET', 'ARP9:stop_gained:HET', 'JNM1:synonymous_variant:HET']"
+WGS-March23-143-05-23,CATCTAAACTTGAATTGTCTTCAGGA,Circ_G,Glu,"['YEL043W:synonymous_variant:HET', 'TGL4:upstream_gene_variant:HET', 'RSC58:synonymous_variant:HET']"
+WGS-March23-143-05-24,GCTTGAACTTTAAAGTTGTTTTTTTG,SEvo_GN,Glu/NaCl,[]
+WGS-March23-143-05-25,AGAAAAATATTAAAAGCAGTTGACTT,Circ_B2,Bob,"['YCL076W:upstream_gene_variant:HET', 'ERV29:upstream_gene_variant:HET', 'TMA10:upstream_gene_variant:HET', 'DNF3:missense_variant:HET']"
+WGS-March23-143-05-26,GATACAATCAACAAGCACCTTTCGAT,Circ_B2,Bob,[]
+WGS-March23-143-05-27,AAGATAAATAGTAAACGTGTTCCAGT,SEvo_G,Glu,['RRI2:synonymous_variant:HET']
+WGS-March23-143-05-28,GGTCAAAGTCGAAATAGTGTTCATCA,Circ_B2,Bob,"['MMR1:upstream_gene_variant:HET', 'MMR1:upstream_gene_variant:HET']"
+WGS-March23-143-05-29,TGGGTAAGGGGAAAACAGGTTCGAAG,Circ_B1,Bob,"['SLH1:missense_variant:HET', 'YJL206C:missense_variant:HET', 'ELP3:synonymous_variant:HET']"
+WGS-March23-143-05-30,GCATGAATTGGAAACACAGTTGCCAG,Circ_B1,Bob,[]
+WGS-March23-143-05-31,ATAATAAAAGCAAACCGTATTGTTAC,Circ_G,Glu,[]
+WGS-March23-143-05-32,GTGGAAATGGGGAATGCGGTTCGTCG,SEvo_GN,Glu/NaCl,"['WIP1:missense_variant:HET', 'BLM10:missense_variant:HET']"
+WGS-March23-143-05-33,TGCCCAATACGGAATAAGGTTGAAGA,Circ_B2,Bob,"['EBS1:missense_variant:HET', 'tK(CUU)K:missense_variant:HET', 'SAM50:missense_variant:HET', 'ARR3:missense_variant:HET']"
+WGS-March23-143-05-34,ATCGCAAGTTGCAATCGGTTTGTAGA,Circ_B2,Bob,"['tT(AGU)B:missense_variant:HET', 'YBR284W:missense_variant:HET', 'RKM4:missense_variant:HET', 'BRR2:missense_variant:HET', 'PAU11:upstream_gene_variant:HET', 'WSC2:synonymous_variant:HET', 'MET22:synonymous_variant:HET', 'NUP1:missense_variant:HET']"
+WGS-March23-143-05-35,CTATAAATCCGCAAATCCCTTCCTTC,Circ_A1,Alice,"['GDH3:missense_variant:HET', 'CDC9:upstream_gene_variant:HET', 'POL2:missense_variant:HET', 'ATG2:missense_variant:HET']"
+WGS-March23-143-05-36,ACTATAAACACCAAAGTGTTTGTAA,Circ_B2,Bob,"['AAD3:upstream_gene_variant:HET', 'DAD2:upstream_gene_variant:HET', 'COG8:missense_variant:HET', 'THI20:upstream_gene_variant:HET']"
+WGS-March23-143-05-37,CCAGAAAACGGCAAGCGCGTTGCGGG,Circ_B1,Bob,"['YCL041C:missense_variant:HET', 'YJL218W:missense_variant:HET', 'DGR2:upstream_gene_variant:HET', 'URA4:synonymous_variant:HET', 'WHI2:missense_variant:HET']"
+WGS-March23-143-05-38,TTGTGAACCGGTAATAAGTTTCAATG,Circ_B1,Bob,"['GDT1:missense_variant:HET', 'YCR051W:missense_variant:HET', 'RAD4:splice_region_variant&stop_retained_variant:HET', 'ECL1:upstream_gene_variant:HET', 'YLR419W:synonymous_variant:HET', 'ERG6:missense_variant:HET', 'TPO3:upstream_gene_variant:HET']"
+WGS-March23-143-05-39,GTTAAAATAGCCAATGAGCTTCGCTT,Circ_G,Glu,"['MAK10:missense_variant:HET', 'CPA2:upstream_gene_variant:HET', 'FIT3:upstream_gene_variant:HET']"
+WGS-March23-143-05-40,TAAAAAACAGAAAACGTCCTTTTAAA,SEvo_GN,Glu/NaCl,"['MAK32:missense_variant:HET', 'ZAP1:missense_variant:HET']"
+WGS-March23-143-05-41,TCCATAAAATTCAAGCTGGTTAACGA,Circ_B2,Bob,"['UGX2:upstream_gene_variant:HET', 'JJJ2:missense_variant:HET', 'RUP1:missense_variant:HET']"
+WGS-March23-143-05-42,AGCACAAGCATTAAGTATGTTGTCTG,Circ_B2,Bob,"['TOG1:upstream_gene_variant:HET', 'YJL182C:upstream_gene_variant:HET', 'TOH1:upstream_gene_variant:HET', 'VPS53:upstream_gene_variant:HET', 'URB1:missense_variant:HET', 'REC114:missense_variant:HET', 'YTA6:missense_variant:HET']"
+WGS-March23-143-05-43,TTAGGAATTGTGAAATAACTTAATAG,Circ_A2,Alice,"['AFT1:missense_variant:HET', 'ATG17:missense_variant:HET', 'MAC1:missense_variant:HET', 'RPO31:upstream_gene_variant:HET']"
+WGS-March23-143-05-44,CAATCAACAGAAAATTACGTTGCGTG,Circ_B2,Bob,"['KAP104:missense_variant:HET', 'SMC1:missense_variant:HET', 'tH(GUG)K:upstream_gene_variant:HET']"
+WGS-March23-143-05-45,ATCAGAATGACCAACGCTTTTTAAAG,Circ_B1,Bob,"['DAN4:upstream_gene_variant:HET', 'IDH2:missense_variant:HET']"
+WGS-March23-143-05-46,TTCAAAAGGTGAAAACTTATTTCACA,Circ_B1,Bob,"['PAB1:stop_gained:HET', 'CYR1:missense_variant:HET', 'LOT6:missense_variant:HET', 'NRT1:missense_variant:HET', 'USV1:missense_variant:HET']"
+WGS-March23-143-05-47,CACTTAAAGGACAAGACTATTACCTT,Circ_G,Glu,['ART10:missense_variant:HET']
+WGS-March23-143-05-48,TGGAGAACGCAGAAATACTTTTAAAG,SEvo_GN,Glu/NaCl,[]
+WGS-March23-143-05-49,AACCTAATAACAAAATAAGTTTCCTC,Circ_B2,Bob,[]
+WGS-March23-143-05-50,ATTTCAAACTGTAACGTACTTTAAAG,Circ_B2,Bob,"['YAL067W-A:missense_variant:HET', 'PSY4:synonymous_variant:HET', 'YEL077C:missense_variant:HET', 'NNK1:synonymous_variant:HET']"
+WGS-March23-143-05-51,TATACAATACGTAAGCTTGTTTATCT,Circ_A2,Alice,[]
+WGS-March23-143-05-52,AGACAAATCCGTAATAGCGTTTATGA,Circ_B2,Bob,"['YBR090C:upstream_gene_variant:HET', 'RPI1:missense_variant:HET', 'IRC10:synonymous_variant:HET']"
+WGS-March23-143-05-53,GGACCAACACAGAAGACCTTTCCACT,Circ_B1,Bob,[]
+WGS-March23-143-05-54,GACCCAACTAAGAAGATTTTTATGTT,Circ_B1,Bob,[]
+WGS-March23-143-05-55,CTTCAAAAGCGCAAATTTATTTTGTG,Circ_G,Glu,[]
+WGS-March23-143-05-56,TTGCAAACTGGAAACACTTTTTATAT,SEvo_GN,Glu/NaCl,"['ADE13:missense_variant:HET', 'NOC2:missense_variant:HET']"
+WGS-March23-143-05-57,TAGTCAAATTTAAAAAACTTTTAAAC,Circ_B2,Bob,"['HEM3:upstream_gene_variant:HET', 'CYR1:synonymous_variant:HET', 'LEO1:stop_gained:HET', 'RTT10:synonymous_variant:HET', 'YPR015C:missense_variant:HET']"
+WGS-March23-143-05-58,GCCATAAGCTGCAATAGCGTTGCCGG,Circ_B2,Bob,"['YAR069C:upstream_gene_variant:HET', 'SYP1:synonymous_variant:HET', 'GIN4:missense_variant:HET', 'RSP5:missense_variant:HET', 'MPO1:synonymous_variant:HET', 'YGR066C:synonymous_variant:HET', 'GPI1:missense_variant:HET', 'SEN1:stop_gained:HET', 'SEC39:missense_variant:HET', 'FET3:missense_variant:HET', 'MMT2:upstream_gene_variant:HET', 'CAM1:stop_gained:HET']"
+WGS-March23-143-05-59,AATAAAAGACCAAAAGTCCTTGTCCG,Circ_A2,Alice,"['ERP2:upstream_gene_variant:HET', 'CDC53:missense_variant:HET', 'RVB1:upstream_gene_variant:HET', 'SWA2:missense_variant:HET', 'GMC1:missense_variant:HET', 'YGL117W:missense_variant:HET', 'BRP1:stop_gained:HET', 'PSD2:missense_variant:HET', 'PBP1:upstream_gene_variant:HET', 'DUR3:missense_variant:HET', 'YMR027W:missense_variant:HET', 'YNR068C:upstream_gene_variant:HET', 'RPT5:missense_variant:HET', 'DAP1:synonymous_variant:HET']"
+WGS-March23-143-05-60,TATTAAATAGGAAACGGGCTTATTAA,Circ_LF2,Glu/Lac,"['OSH2:missense_variant:HET', 'KAP122:missense_variant:HET', 'YHR182C-A:missense_variant:HET', 'BAS1:missense_variant:HET', 'SPC29:missense_variant:HET', 'SNF8:missense_variant:HET']"
+WGS-March23-143-05-61,TGATTAAAAGCGAATCAGATTCGGTA,Circ_B1,Bob,"['AAC3:upstream_gene_variant:HET', 'tF(GAA)F:upstream_gene_variant:HET', 'YKL063C:upstream_gene_variant:HET', 'RSC4:missense_variant:HET', 'HAP1:stop_gained:HET', 'GCV2:synonymous_variant:HET']"
+WGS-March23-143-05-62,GACAAAATAATGAAGTAAATTCGTGG,Circ_HF2,Glu/H2O2,"['IMD1:missense_variant:HET', 'SCY1:synonymous_variant:HET', 'tA(AGC)G:upstream_gene_variant:HET', 'YIF1:missense_variant:HET']"
+WGS-March23-143-05-63,ACAAGAAATTAGAAAATAGTTTAGTC,Circ_G,Glu,"['SLM2:synonymous_variant:HET', 'YPL150W:missense_variant:HET']"
+WGS-March23-143-05-64,ATCGGAAGACTTAATTTTATTTTTAT,SEvo_GN,Glu/NaCl,"['GDA1:synonymous_variant:HET', 'PSR1:upstream_gene_variant:HET']"
+WGS-March23-143-05-65,TTTAGAATTTATAACATCATTTATCT,Circ_B2,Bob,[]
+WGS-March23-143-05-66,TTCTGAACAAACAAGGGAATTACGGC,Circ_B2,Bob,"['YDL187C:upstream_gene_variant:HET', 'VAC8:synonymous_variant:HET']"
+WGS-March23-143-05-67,CGAAAAAGAGTTAAGGCGGTTGACCC,Circ_A2,Alice,"['HGH1:upstream_gene_variant:HET', 'PDR11:upstream_gene_variant:HET', 'IDH1:upstream_gene_variant:HET']"
+WGS-March23-143-05-68,TACCTAATCCCTAAACTGGTTTGTAC,Circ_B1,Bob,"['ERP3:missense_variant:HET', 'tG(GCC)E:missense_variant:HET', 'TWF1:missense_variant:HET', 'BRF1:synonymous_variant:HET', 'YHR028W-A:missense_variant:HET', 'YHR028W-A:missense_variant:HET', 'YHR028W-A:synonymous_variant:HET', 'NNK1:missense_variant:HET', 'YKL097C:synonymous_variant:HET', 'FPS1:missense_variant:HET']"
+WGS-March23-143-05-69,GTATTAACTCGGAATCCCCTTTGCAT,Circ_B1,Bob,"['PCA1:upstream_gene_variant:HET', 'RBS1:missense_variant:HET', 'COG1:upstream_gene_variant:HET', 'KSS1:disruptive_inframe_deletion:HET', 'ZPR1:missense_variant:HET', 'HOM6:synonymous_variant:HET', 'ACS2:missense_variant:HET', 'ERO1:missense_variant:HET', 'SPC24:missense_variant:HET', 'FKS3:synonymous_variant:HET', 'SPS4:synonymous_variant:HET']"
+WGS-March23-143-05-70,TTTCGAATGTTAAAAAATGTTGGGGG,Circ_B1,Bob,"['CYS4:synonymous_variant:HET', 'SAY1:missense_variant:HET', 'CHS1:synonymous_variant:HET', 'YOL162W:missense_variant:HET', 'MDM38:missense_variant:HET', 'KTR6:missense_variant:HET', 'KRE6:missense_variant:HET']"
+WGS-March23-143-05-71,AGAAAAAATCATAAGTGACTTATGAA,Circ_G,Glu,"['SRP21:upstream_gene_variant:HET', 'NST1:missense_variant:HET']"
+WGS-March23-143-05-72,ATGACAAGCTGAAAGACCCTTTGGGG,SEvo_GN,Glu/NaCl,['MBP1:synonymous_variant:HET']
+WGS-March23-143-05-73,GAGTAAACAGAAAAATGGGTTCCGAG,Circ_B2,Bob,"['YGL193C:missense_variant:HET', 'PRS1:upstream_gene_variant:HET']"
+WGS-March23-143-05-74,TTTAAAACGATGAAGCTAATTTCTTC,Circ_B2,Bob,"['HMRA2:upstream_gene_variant:HET', 'CMR1:missense_variant:HET', 'ICR1:upstream_gene_variant:HET', 'JJJ2:missense_variant:HET', 'MCD4:missense_variant:HET', 'YTP1:missense_variant:HET']"
+WGS-March23-143-05-75,ACAGAAAACCTTAAAGGTTTTTATTA,Circ_A2,Alice,"['ARO1:missense_variant:HET', 'SYG1:upstream_gene_variant:HET', 'ACC1:upstream_gene_variant:HET', 'ACC1:upstream_gene_variant:HET']"
+WGS-March23-143-05-76,CGTGTAATACTAAAGCAACTTATAGA,Circ_B1,Bob,"['SCT1:synonymous_variant:HET', 'NUP84:synonymous_variant:HET', 'YEL073C:upstream_gene_variant:HET', 'YFL051C:missense_variant:HET', 'HFM1:missense_variant:HET', 'PMR1:missense_variant:HET', 'ICE2:synonymous_variant:HET', 'YRB2:upstream_gene_variant:HET', 'YJL215C:synonymous_variant:HET', 'TIM17:synonymous_variant:HET', 'PAM16:synonymous_variant:HET', 'NUP116:missense_variant:HET', 'CEP3:synonymous_variant:HET', 'YOL150C:upstream_gene_variant:HET', 'RTT10:missense_variant:HET', 'RDS2:missense_variant:HET', 'YPR159C-A:synonymous_variant:HET']"
+WGS-March23-143-05-77,TTGCCAAAGTCTAAATTTATTTTTCA,Circ_B1,Bob,[]
+WGS-March23-143-05-78,AAACAAATGTGAAAACTACTTGTATT,Circ_G,Glu,['PMR1:upstream_gene_variant:HET']
+WGS-March23-143-05-79,CTTCTAACCGTCAACAGGCTTTCAGT,Circ_G,Glu,"['HEM1:missense_variant:HET', 'HEM1:missense_variant:HET']"
+WGS-March23-143-05-80,AACTAAATGCGAAAAGTGGTTAAAAC,SEvo_GN,Glu/NaCl,['LAA1:missense_variant:HET']
+WGS-March23-143-05-81,GCGTTAATAGGCAACCGAGTTCTCGG,Circ_B2,Bob,"['DNF1:missense_variant:HET', 'NMD4:upstream_gene_variant:HET', 'AFT2:upstream_gene_variant:HET', 'RTT10:missense_variant:HET', 'GDE1:missense_variant:HET']"
+WGS-March23-143-05-82,CATACAATATGTAATCAAATTTGCAT,Circ_B2,Bob,"['tR(UCU)B:missense_variant:HET', 'MDM31:frameshift_variant:HET', 'GTT1:upstream_gene_variant:HET', 'GRR1:missense_variant:HET']"
+WGS-March23-143-05-83,TCACAAAATTGTAATGTCTTTGATAT,Circ_B1,Bob,"['PAU11:upstream_gene_variant:HET', 'SNX4:missense_variant:HET', 'KAE1:missense_variant:HET', 'PET309:missense_variant:HET', 'RAX2:missense_variant:HET', 'RAD1:synonymous_variant:HET']"
+WGS-March23-143-05-84,GTTATAAGCACGAATATGTTTATGGT,Circ_B1,Bob,"['YER010C:frameshift_variant:HET', 'BOI2:missense_variant:HET', 'HIR3:missense_variant:HET']"
+WGS-March23-143-05-85,TTGTTAAAACTTCAATGGTGTTTGCAC,Circ_HN1,H2O2/NaCl,"['BPL1:stop_gained:HET', 'TDH3:upstream_gene_variant:HET', 'LAM4:upstream_gene_variant:HET']"
+WGS-March23-143-05-86,GATGAAAGCCGAAATTCCGTTACTGA,Circ_G,Glu,"['RBA50:missense_variant:HET', 'HXT5:start_lost:HET', 'FKH2:synonymous_variant:HET']"
+WGS-March23-143-05-87,GTCATAACTAGAAATAAGTTTCGTAC,SEvo_GN,Glu/NaCl,['KCS1:upstream_gene_variant:HET']
+WGS-March23-143-05-88,AGAATAACATAGAACAGGGTTGATGG,SEvo_GN,Glu/NaCl,"['HIR1:missense_variant:HET', 'RPB9:synonymous_variant:HET']"
+WGS-March23-143-05-89,TCAAGAAAGTGTAACACGTTGGGTT,Circ_B2,Bob,"['NHP6B:missense_variant:HET', 'SEC23:missense_variant:HET']"
+WGS-March23-143-05-90,TACCAAATAGTAAAAGTGTTTTAACC,Circ_B2,Bob,"['YEL023C:missense_variant:HET', 'SWP82:missense_variant:HET', 'tH(GUG)G2:upstream_gene_variant:HET', 'YGR022C:upstream_gene_variant:HET', 'PPX1:missense_variant:HET', 'ACO2:missense_variant:HET', 'SIR1:synonymous_variant:HET', 'ESBP6:stop_gained:HET']"
+WGS-March23-143-05-91,CTATTAATCATAAAATGTTTTTTGCA,Circ_B1,Bob,[]
+WGS-March23-143-05-92,CGTTGAAAAACGAATCTTTTTGATTT,Circ_B1,Bob,"['GDH2:missense_variant:HET', 'GRX4:synonymous_variant:HET', 'BET1:missense_variant:HET', 'LOS1:missense_variant:HET', 'NEW1:synonymous_variant:HET']"
+WGS-March23-143-05-93,CAGAAAATAGTCAAGTAGCTTGGCTC,Circ_B1,Bob,"['GAL10:synonymous_variant:HET', 'SIZ1:missense_variant:HET', 'SPS1:synonymous_variant:HET']"
+WGS-March23-143-05-94,TCTATAACCGTCAAAATGGTTTCCTT,Circ_G,Glu,"['SLY1:missense_variant:HET', 'CTS2:missense_variant:HET', 'YFR052C-A:upstream_gene_variant:HET']"
+WGS-March23-143-05-95,GGATGAAAGTCCAAGGGCTTTTCGTG,SEvo_GN,Glu/NaCl,"['JEM1:synonymous_variant:HET', 'SGM1:upstream_gene_variant:HET', 'RPL18B:missense_variant:HET', 'VID27:missense_variant:HET']"
+WGS-March23-143-05-96,CAGTTAATTTTAAATCAAGTTAATTG,SEvo_GN,Glu/NaCl,['GIT1:upstream_gene_variant:HET']

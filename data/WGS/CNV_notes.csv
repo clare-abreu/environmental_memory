@@ -1,0 +1,53 @@
+Mutant,Chromosome,Region,Gene,Notes
+WGS-March23-143-01-07,IV,528kb-538kb,"ENA5, ENA2, ENA1",Appears to be further amplification of an already amplified area
+WGS-March23-143-01-30,IV,528kb-538kb,"ENA5, ENA2, ENA1",Same as WGS-March23-143-01-07
+WGS-March23-143-01-39,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30; there were some deleted reads as well, suggesting the amplification could be even bigger"
+WGS-March23-143-01-53,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39; there were some deleted reads in th 535kb region"
+WGS-March23-143-01-77,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53"
+WGS-March23-143-01-82,XIII,0kb-5kb,YML133C,Appears to be some slight amplification (~2X)
+WGS-March23-143-01-85,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77"
+WGS-March23-143-01-86,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85"
+WGS-March23-143-01-93,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86"
+WGS-March23-143-03-16,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-03-24,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-03-24,VIII,526.4kb-526.5kb,FLOC5,Maybe some amplification of an area of the gene already amplified. Hard to tell though because other genomes had deletions in this area
+WGS-March23-143-03-27,IV,"1,526kb",YRF1-1,Appears to be further amplification of an already amplified area
+WGS-March23-143-03-27,V,573kb-577kb,YRF1-2,~2X amplification
+WGS-March23-143-03-27,VI,0kb-4.7kb,"YFL067W, YFL066C, YFL065C, YFL064C",~4X amplification
+WGS-March23-143-03-27,VII,1084kb-1091kb,YRF1-3,2-3X amplification
+WGS-March23-143-03-27,VIII,562kb,YHR219W,Possibly some amplification
+WGS-March23-143-03-27,XII,"1,070kb","YRF1-4, YRF1-5",2-3X amplification
+WGS-March23-143-03-27,XIII,0-5kb,YML133C,2-3X amplification
+WGS-March23-143-03-27,XIV,0-6kb,YRF1-6,2-3X amplification
+WGS-March23-143-03-27,XV,1085kb-1095kb,YRF1-8,Amplification
+WGS-March23-143-03-27,XVI,0-6kb,YRF1-7,2-3X amplification
+WGS-March23-143-03-32,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-03-34,V,575kb,YRF1-2,Possibly some amplification
+WGS-March23-143-03-34,IX,0-3kb,YIL177C,Possibly some amplification
+WGS-March23-143-03-34,XIII,199kb,YML039W,Possibly some amplification
+WGS-March23-143-03-40,IV,528kb-538kb,"ENA5, ENA2, ENA1",Same as others but this one especially amplified
+WGS-March23-143-03-43,XVI,946kb,YPR204W,Possibly some amplification
+WGS-March23-143-03-55,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-03-64,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-03-71,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-03-96,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-04-02,VI,0kb-4.7kb,"YFL067W, YFL066C, YFL065C, YFL064C",~4X amplification
+WGS-March23-143-04-18,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-04-18,IV,528kb-538kb,"ENA5, ENA2, ENA1",Same as others but this one slightly more amplified
+WGS-March23-143-04-32,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-04-41,IV,"1,526kb",YRF1-1,Appears to be further amplification of an already amplified area
+WGS-March23-143-04-41,XII,"1,070kb","YRF1-4, YRF1-5",~2X amplification
+WGS-March23-143-04-47,IV,528kb-538kb,"ENA5, ENA2, ENA1",Same as others but this one especially amplified
+WGS-March23-143-04-56,IV,528kb-538kb,"ENA5, ENA2, ENA1",Same as others but this one slightly more amplified
+WGS-March23-143-04-63,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-04-74,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-04-80,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-04-81,IV,528kb-538kb,"ENA5, ENA2, ENA1",Same as others but this one especially amplified
+WGS-March23-143-04-86,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-05-32,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-05-48,IV,758kb-760kb,NUM1,2-3X amplification
+WGS-March23-143-05-64,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-05-71,XII,1070kb-end,"YRF1-4, YRF1-5",~2X amplification
+WGS-March23-143-04-88,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
+WGS-March23-143-01-45,IV,528kb-538kb,"ENA5, ENA2, ENA1",Same as others but this one slightly more amplified
+WGS-March23-143-03-56,IV,528kb-538kb,"ENA5, ENA2, ENA1","Same as WGS-March23-143-01-07, WGS-March23-143-01-30, WGS-March23-143-01-39, WGS-March23-143-01-53, WGS-March23-143-01-77, WGS-March23-143-01-85, WGS-March23-143-01-86, WGS-March23-143-01-93"
