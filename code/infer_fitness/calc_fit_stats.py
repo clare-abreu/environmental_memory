@@ -43,7 +43,7 @@ plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 
 # %% Functions
 def calc_mean_diff(fitness_df,conds):
-# Compute mean fitness difference:
+# For all mutants, compute mean fitness difference between conditions 'conds':
     diff_df = pd.DataFrame()
     diff_df.index = fitness_df.index
     diff_df['Source_Env'] = fitness_df['Source_Env']
@@ -87,7 +87,7 @@ def calc_mean_diff(fitness_df,conds):
     return(diff_df)
 
 def calc_mean_diff_with_SEM(fitness_df,conds):
-# Compute mean fitness difference:
+# For all mutants, compute mean fitness difference between conditions 'conds':
     diff_df = pd.DataFrame()
     diff_df.index = fitness_df.index
     diff_df['Source_Env'] = fitness_df['Source_Env']
@@ -141,6 +141,7 @@ def calc_mean_diff_with_SEM(fitness_df,conds):
 
 
 def calc_mean_angle_diff(fitness_df,conds):
+# For all mutants, compute mean angle difference between conditions 'conds', where angle is defined as shown in Supp. Fig. 10
     import math
     diff_df = pd.DataFrame()
     diff_df.index = fitness_df.index
@@ -321,6 +322,7 @@ adaptive_withT0_rm_high_pool_frac_high_thr = pd.read_csv(f'{formatted_data_path}
 adaptive_withoutT0_rm_high_pool_frac_high_thr = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_fitness_withoutT0_0.1_threshold_exceptions.csv',index_col=0)
 
 # Choose adaptive threshold, whether to include timepoint T0 in fitness inferences, whether to drop Lac-H2O2 and high-batch effect conds from averages:
+# (SEE SUPPLEMENTARY FIG. 6 FOR A COMPARISON OF THESE CHOICES)
 thr = 'normal'
 choose = 'not_rm_high_pool_frac'
 drop_LacH = True
@@ -454,8 +456,6 @@ if thr == 'normal':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_drop_batch_fx.csv')
         elif choose == 'not':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withoutT0_overall_stats_drop_batch_fx.csv')
-        elif choose == 'H_hybrid':
-            fitness_df.to_csv('summary_data/adaptive_non_neutralAB_H_hybrid_overall_stats_drop_batch_fx.csv')
         elif choose == 'T0_rm_high_pool_frac':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_rm_high_pool_frac_drop_batch_fx.csv')
         elif choose == 'not_rm_high_pool_frac':
@@ -474,8 +474,6 @@ if thr == 'normal':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_drop_LacH.csv')
         elif choose == 'not':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withoutT0_overall_stats_drop_LacH.csv')
-        elif choose == 'H_hybrid':
-            fitness_df.to_csv('summary_data/adaptive_non_neutralAB_H_hybrid_overall_stats_drop_LacH.csv')
         elif choose == 'T0_rm_high_pool_frac':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_rm_high_pool_frac_drop_LacH.csv')
         elif choose == 'not_rm_high_pool_frac':
@@ -494,8 +492,6 @@ if thr == 'normal':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats.csv')
         elif choose == 'not':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withoutT0_overall_stats.csv')
-        elif choose == 'H_hybrid':
-            fitness_df.to_csv('summary_data/adaptive_non_neutralAB_H_hybrid_overall_stats.csv')
         elif choose == 'T0_rm_high_pool_frac':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_rm_high_pool_frac.csv')
         elif choose == 'not_rm_high_pool_frac':
@@ -515,8 +511,6 @@ elif thr == 'high':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_drop_LacH_0.1_threshold.csv')
         elif choose == 'not':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withoutT0_overall_stats_drop_LacH_0.1_threshold.csv')
-        elif choose == 'H_hybrid':
-            fitness_df.to_csv('summary_data/adaptive_non_neutralAB_H_hybrid_overall_stats_drop_LacH_0.1_threshold.csv')
         elif choose == 'T0_rm_high_pool_frac':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_rm_high_pool_frac_drop_LacH_0.1_threshold.csv')
         elif choose == 'not_rm_high_pool_frac':
@@ -526,8 +520,6 @@ elif thr == 'high':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_0.1_threshold.csv')
         elif choose == 'not':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withoutT0_overall_stats_0.1_threshold.csv')
-        elif choose == 'H_hybrid':
-            fitness_df.to_csv('summary_data/adaptive_non_neutralAB_H_hybrid_overall_stats_0.1_threshold.csv')
         elif choose == 'T0_rm_high_pool_frac':
             fitness_df.to_csv('summary_data/adaptive_non_neutralAB_withT0_overall_stats_rm_high_pool_frac_0.1_threshold.csv')
         elif choose == 'not_rm_high_pool_frac':

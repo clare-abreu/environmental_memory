@@ -30,10 +30,12 @@ for cond in ['Glu','Gal','Lac','H2O2','NaCl']:
         fitness_df.loc[BC,f'{cond}_SEM_across_reps'] = bootstrap_df.loc[BC,f'{cond}_SEM_across_reps']
         
 Gal_conds = ['Glu','Gal','Glu/Gal']
-N_conds = ['Glu','NaCl','Glu/NaCl']
+N_conds = ['Glu','NaCl','Glu/NaCl'
+           
+           ]
 L_conds = ['Glu','Lac','Glu/Lac']
 H_conds = ['Glu','H2O2','Glu/H2O2']
-HN_conds = ['H2O2','NaCl','H2O2/NaCl']
+HN_conds = ['H2O2between','NaCl','H2O2/NaCl']
 GalL_conds = ['Gal','Lac','Gal/Lac']
 GalH_conds = ['Gal','H2O2','Gal/H2O2']
 GalN_conds = ['Gal','NaCl','Gal/NaCl']
