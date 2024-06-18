@@ -6,61 +6,22 @@ Created on Thu Aug 31 21:51:19 2023
 @author: clare
 """
 
-import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 import numpy as np
 
-from scipy.stats import linregress
-from scipy.spatial import distance
-from matplotlib import colors
-import scipy
-import sys
-import os
-from matplotlib.backends.backend_pdf import PdfPages
-# from sklearn.decomposition import PCA
-from ast import literal_eval
-from Bio import SeqIO
-from itertools import combinations
-from matplotlib.ticker import LogLocator
-from matplotlib.ticker import FixedLocator
-from matplotlib.ticker import ScalarFormatter
-from matplotlib.ticker import FuncFormatter
-from matplotlib.ticker import MaxNLocator
 
 # %%
 # Import fitness dfs
 data_path = '../../data/'
 BClist = pd.read_csv(f'{data_path}BClist.csv',index_col=0)
 formatted_data_path = 'summary_data/'
-#adaptive_withT0 = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_withT0_overall_stats.csv',index_col=0)
-#adaptive_withT0_rm_high_pool_frac = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_withT0_overall_stats_rm_high_pool_frac.csv',index_col=0)
-#adaptive_all_withT0 = pd.read_csv(f'{formatted_data_path}all_static_withT0_overall_stats.csv',index_col=0)
-#adaptive_withoutT0 = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_withoutT0_overall_stats.csv',index_col=0)
-adaptive_withoutT0_rm_high_pool_frac = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_withoutT0_overall_stats_rm_high_pool_frac.csv',index_col=0)
 adaptive_withoutT0_rm_high_pool_frac_dropLacH = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_withoutT0_overall_stats_rm_high_pool_frac_drop_LacH.csv',index_col=0)
 # Bootstrapped SEMs:
 formatted_data_path = 'formatted_data/'
 bootstrap_withoutT0_exc = pd.read_csv(f'{formatted_data_path}bootstrapped_non_neutralAB_fitness_withoutT0_with_reps_exceptions.csv',index_col=0)
-bootstrap_withT0_exc = pd.read_csv(f'{formatted_data_path}bootstrapped_non_neutralAB_fitness_withT0_with_reps_exceptions.csv',index_col=0)
 
-choose = 'not_rm_high_pool_frac'
-if choose == 'T0':
-    fitness_df = adaptive_withT0
-elif choose == 'not':
-    fitness_df = adaptive_withoutT0
-elif choose == 'T0_rm_high_pool_frac':
-    fitness_df = adaptive_withT0_rm_high_pool_frac
-elif choose == 'not_rm_high_pool_frac':
-    fitness_df = adaptive_withoutT0_rm_high_pool_frac_dropLacH
-else:
-    print('ERROR: CHOOSE "T0" or "not"')
-
-
-if choose == 'T0_rm_high_pool_frac':
-    bootstrap_df = bootstrap_withT0_exc
-elif choose == 'not_rm_high_pool_frac':
-    bootstrap_df = bootstrap_withoutT0_exc
+fitness_df = adaptive_withoutT0_rm_high_pool_frac_dropLacH
+bootstrap_df = bootstrap_withoutT0_exc
 
 for cond in ['Glu','Gal','Lac','H2O2','NaCl']:
     fitness_df[f'{cond}_SEM_bootstrap'] = np.nan
