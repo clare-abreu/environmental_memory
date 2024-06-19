@@ -645,7 +645,8 @@ skipz_static_data = save_fitness_skip_zeros_static(all_counts,ave_mean_fit,cond_
 with open('fit_lists_for_bootstrap/skipz_static_data.pkl', 'wb') as f:
     pickle.dump(skipz_static_data, f)
     
-#%% Save static fitnesses for bootstrapping later, EXCEPTION: H only leaving out T4, jump timepoints with zero freq:
+#%% Save static fitnesses for bootstrapping later
+# EXCEPTION: H only leaving out T4 since bc pool frequency > 0.5, jump timepoints with zero freq:
 
 # Static conditions:    
 cond_rep_times_static_H={}
@@ -667,7 +668,8 @@ skipz_static_data_H = save_fitness_skip_zeros_static(all_counts,ave_mean_fit_H,c
 with open('fit_lists_for_bootstrap/skipz_static_data_H_exception.pkl', 'wb') as f:
     pickle.dump(skipz_static_data_H, f)
 
-#%% Calculate MLE fitnesses with naive std err, EXCEPTION: H only leaving out T4, jump timepoints with zero freq:
+#%% Calculate MLE fitnesses with naive std err
+# EXCEPTION: H only leaving out T4 since bc pool frequency > 0.5, jump timepoints with zero freq:
  
 # Static conditions:    
 cond_rep_times_static_H={}

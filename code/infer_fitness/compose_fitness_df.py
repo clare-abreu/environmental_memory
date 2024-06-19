@@ -14,11 +14,9 @@ import numpy as np
 # Import fitness dfs
 data_path = '../../data/'
 BClist = pd.read_csv(f'{data_path}BClist.csv',index_col=0)
-formatted_data_path = 'summary_data/'
-adaptive_withoutT0_rm_high_pool_frac_dropLacH = pd.read_csv(f'{formatted_data_path}adaptive_non_neutralAB_withoutT0_overall_stats_rm_high_pool_frac_drop_LacH.csv',index_col=0)
+adaptive_withoutT0_rm_high_pool_frac_dropLacH = pd.read_csv('summary_data/adaptive_non_neutralAB_withoutT0_overall_stats_rm_high_pool_frac_drop_LacH.csv',index_col=0)
 # Bootstrapped SEMs:
-formatted_data_path = 'formatted_data/'
-bootstrap_withoutT0_exc = pd.read_csv(f'{formatted_data_path}bootstrapped_non_neutralAB_fitness_withoutT0_with_reps_exceptions.csv',index_col=0)
+bootstrap_withoutT0_exc = pd.read_csv('formatted_data/bootstrapped_non_neutralAB_fitness_withoutT0_with_reps_exceptions.csv',index_col=0)
 
 fitness_df = adaptive_withoutT0_rm_high_pool_frac_dropLacH
 bootstrap_df = bootstrap_withoutT0_exc

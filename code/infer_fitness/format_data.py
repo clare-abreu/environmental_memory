@@ -50,6 +50,7 @@ def add_src_envs(df,BClist):
 def make_non_neutralAB_df(df_static,df_fluct_comp1,df_fluct_comp2,BClist,add_exceptions=False,df_static_exceptions=None,df_fluct_comp2_exceptions=None):
     # Make df of fitness of non-neutral and non-Alice/Bob barcodes
     # Need to generalize to other types of SEM than 'Naive_std_err'
+    # If add_exceptions=True, this means that we are excluding timepoints from fitness estimates where the bc pool grows to a total freq > 0.5
 
     non_neutral_nonAB_BCs = BClist[(BClist['Source_Env']!='Neutral') & (BClist['Source_Env']!='Ancestor') & (BClist['Source_Env']!='Alice') &
                                    (BClist['Source_Env']!='Bob')].index
