@@ -275,7 +275,7 @@ def plot_adaptive_thr(df,title):
 
     # Plot how adaptive threshold affects results:
     num_adaptive = []
-    adapt_thrs = np.linspace(-0.2, 0.5, 100)#[-0.06,-0.04,-0.02,-0.01,0,0.01,0.02,0.03,0.04,0.05,0.06,0.07,0.08,0.09,0.1,0.11,0.12,0.13,0.14,0.15,0.16,0.17,0.18,0.19,0.2,0.22,0.24,0.26,0.28,0.3]
+    adapt_thrs = np.linspace(-0.2, 0.5, 100)
     for k in adapt_thrs:
         df_thr = df.copy()
         adapt_thr = k
