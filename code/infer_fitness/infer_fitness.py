@@ -774,7 +774,7 @@ df_fluct_comp2_withT0_rep_sep.to_csv('data/calc_fluct_fits_comp2_withT0_sep_reps
 
 
 
-#%% Static conditions MEM CONTROL (SUPP. FIG 8): treat as if fluctuating
+#%% Static conditions MEMORY CONTROL (SUPP. FIG 8): treat as if fluctuating
 
 #%% Mean fitness first:
 

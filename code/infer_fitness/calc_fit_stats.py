@@ -361,7 +361,6 @@ elif thr == 'high':
     else:
         print('ERROR: CHOOSE "T0" or "not"')
 
-#fitness_df = adaptive_withT0
 
 # Calculate mean fitness difference across static envs:
 
