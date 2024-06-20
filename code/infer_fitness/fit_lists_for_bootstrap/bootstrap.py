@@ -108,7 +108,7 @@ def bootstrap_fitness(data_dict,conds,BCs,num_trials):
 
 
 #%%
-num_trials=150
+num_trials=250
 static_conds = ['Glu','Gal','L','N']
 static_exc_cond = ['high_H_H']
 fluct_conds = ['Gal-N','Glu-Gal','Glu-L','Glu-N','high_H_Gal-H','high_H_H-N','L-N']

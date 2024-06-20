@@ -92,7 +92,7 @@ def calc_mean_fit(all_counts,cond_rep_times):
 
 
 def calc_fitness(all_counts,ave_mean_fit,cond_rep_times,rep_sep=True):
-    # Calculate mutant fitnesses
+    # Calculate basic mutant fitnesses, no error calculation
     # cond_rep_times is a dictionary where each condition is a dictionary containing 
     # a list of three lists of timepoints to use with each replicate
     # If rep_sep, calculate fitness of each replicate separately
@@ -646,7 +646,8 @@ with open('fit_lists_for_bootstrap/skipz_static_data.pkl', 'wb') as f:
     pickle.dump(skipz_static_data, f)
     
 #%% Save static fitnesses for bootstrapping later
-# EXCEPTION: H only leaving out T4 since bc pool frequency > 0.5, jump timepoints with zero freq:
+# EXCEPTION: H only leaving out T4 since bc pool frequency > 0.5
+# jump timepoints with zero freq:
 
 # Static conditions:    
 cond_rep_times_static_H={}
@@ -669,7 +670,8 @@ with open('fit_lists_for_bootstrap/skipz_static_data_H_exception.pkl', 'wb') as 
     pickle.dump(skipz_static_data_H, f)
 
 #%% Calculate MLE fitnesses with naive std err
-# EXCEPTION: H only leaving out T4 since bc pool frequency > 0.5, jump timepoints with zero freq:
+# EXCEPTION: H only leaving out T4 since bc pool frequency > 0.5
+# jump timepoints with zero freq:
  
 # Static conditions:    
 cond_rep_times_static_H={}
@@ -772,7 +774,7 @@ df_fluct_comp2_withT0_rep_sep.to_csv('data/calc_fluct_fits_comp2_withT0_sep_reps
 
 
 
-#%% Static conditions MEM CONTROL: treat as if fluctuating
+#%% Static conditions MEM CONTROL (SUPP. FIG 8): treat as if fluctuating
 
 #%% Mean fitness first:
 
@@ -815,7 +817,7 @@ static_df_fluct_comp2_rep_sep = calc_fitness(all_counts,static_ave_mean_fit_fluc
 static_df_fluct_comp2_rep_sep.to_csv('data/static_calc_fluct_fits_comp2_sep_reps.csv')
 
 
-#%% Fluctuating conditions REGRESSION TO MEAN CONTROL: 3rd and 6th timepoints only
+#%% Fluctuating conditions REGRESSION TO MEAN CONTROL: 3rd and 6th timepoints only (SUPP. FIG 8)
 
 #%% Mean fitness first:
 
