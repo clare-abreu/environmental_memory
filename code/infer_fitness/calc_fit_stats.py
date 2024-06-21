@@ -195,7 +195,7 @@ def calc_mean_angle_diff(fitness_df,conds):
 
 def calc_nonadd(fitness_df,pair_conds,pair_conds_mean):
     # Calculate nonadditivity for each fluct env and mean nonadditivity overall
-    # pair_conds lists all pairs for finding nonadditivity; pair_conds_mean lists pairs for averaging nonaddivity (i.e. leave out Lac/H from the second list)
+    # pair_conds lists all pairs for finding nonadditivity; pair_conds_mean lists pairs for averaging nonaddivity (e.g. leave out Lac/H from the second list)
     nonadd_df = pd.DataFrame()
     nonadd_df.index = fitness_df.index
     for c in range(len(pair_conds)):
@@ -217,7 +217,7 @@ def calc_nonadd(fitness_df,pair_conds,pair_conds_mean):
 
 def calc_nonadd_with_SEM(fitness_df,pair_conds,pair_conds_mean):
     # Calculate nonadditivity for each fluct env and mean nonadditivity overall
-    # pair_conds lists all pairs for finding nonadditivity; pair_conds_mean lists pairs for averaging nonaddivity (i.e. leave out Lac/H from the second list)
+    # pair_conds lists all pairs for finding nonadditivity; pair_conds_mean lists pairs for averaging nonaddivity (e.g. leave out Lac/H from the second list)
     nonadd_df = pd.DataFrame()
     nonadd_df.index = fitness_df.index
     for c in range(len(pair_conds)):
@@ -246,7 +246,7 @@ def calc_nonadd_with_SEM(fitness_df,pair_conds,pair_conds_mean):
 
 def calc_memory(fitness_df,pair_conds,pair_conds_mean):
     # Calculate memory for each fluct env and mean memory overall
-    # pair_conds lists all pairs for finding memory; pair_conds_mean lists pairs for averaging memory (i.e. leave out Lac/H from the second list)
+    # pair_conds lists all pairs for finding memory; pair_conds_mean lists pairs for averaging memory (e.g. leave out Lac/H from the second list)
     mem_df = pd.DataFrame()
     mem_df.index = fitness_df.index
     for c in range(len(pair_conds)):
@@ -274,7 +274,7 @@ def calc_memory(fitness_df,pair_conds,pair_conds_mean):
 
 def calc_memory_with_SEM(fitness_df,pair_conds,pair_conds_mean):
     # Calculate memory for each fluct env and mean memory overall
-    # pair_conds lists all pairs for finding memory; pair_conds_mean lists pairs for averaging memory (i.e. leave out Lac/H from the second list)
+    # pair_conds lists all pairs for finding memory; pair_conds_mean lists pairs for averaging memory (e.g. leave out Lac/H from the second list)
     mem_df = pd.DataFrame()
     mem_df.index = fitness_df.index
     for c in range(len(pair_conds)):
