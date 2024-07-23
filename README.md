@@ -1,5 +1,5 @@
 # environmental_memory
-Code and data for Abreu et al. (2024) Nature Ecology &amp; Evolution
+Code and data used in "Environmental memory alters the fitness effects of adaptive mutations in fluctuating environments" by Abreu et al. (2024) Nature Ecology &amp; Evolution: https://www.nature.com/articles/s41559-024-02475-9
 
 The repository contains two folders: code and data.
 
